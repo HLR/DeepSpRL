@@ -27,8 +27,8 @@ def preprocess_sentence(list):
 
     word2index = {}
     word2count = {}
-    index2word = {0: 'MASK', 1: "SOS", 2: "EOS"}
-    n_words = 3  # Count mask, SOS and EOS
+    index2word = {0: 'MASK', 1: "SOS", 2: "EOS", 3: 'NOT_FOUND'}
+    n_words = 4  # Count mask, SOS and EOS, AND NOT_FOUND
 
     for i in range(len(list)):
         sentence = normalizeString(list[i])
@@ -152,7 +152,9 @@ def sentence_to_tensor(word2index, list, max_length):
     input_length = []
     for i in range(len(list)):
         sentence = normalizeString(list[i])
-        indexes = [word2index[word] for word in sentence.split(' ')]
+        # get(key, default=None)
+        # indexes = [word2index[word] for word in sentence.split(' ')]
+        indexes = [word2index.get(word, 3) for word in sentence.split(' ')]
         input_length.append(len(indexes))
         # print(indexes)
         if len(indexes) >= max_length:
@@ -193,6 +195,7 @@ def image_feature_tensor(feature_data, label, max_length):
     label = torch.tensor(label, dtype=torch.long, device=device).view(-1, 1)
 
     return input_0, input_1, input_2, input_0_len, input_1_len, input_2_len, label
+
 
 # input_0, input_1, input_2, input_0_len, input_1_len, input_2_len = image_feature_tensor(feature_data, label, 10)
 # print(len(input_0))
