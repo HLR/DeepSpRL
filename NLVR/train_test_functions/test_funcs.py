@@ -1,48 +1,71 @@
-######################################################################
-# Evaluation
-# ==========
-#
-# Evaluation is mostly the same as training, but there are no targets so
-# we simply feed the decoder's predictions back to itself for each step.
-# Every time it predicts a word we add it to the output string, and if it
-# predicts the EOS token we stop there. We also store the decoder's
-# attention outputs for display later.
-#
+'''
+Institution: Tulane University
+Name: Chen Zheng
+Date: 11/04/2018
+Purpose: Some functions help to test process.
+'''
+import torch
+import torch.nn as nn
+from torch import optim
+import torch.nn.functional as F
+import sys
+sys.path.append('../')
+from config.first_config import CONFIG
+import time
+import math
 
-def evaluate(encoder, decoder, sentence, max_length=MAX_LENGTH):
-    with torch.no_grad():
-        input_tensor = tensorFromSentence(input_lang, sentence)
-        input_length = input_tensor.size()[0]
-        encoder_hidden = encoder.initHidden()
+def begin_to_test(input1, input2, input3, input_sen, input1_len, input2_len, input3_len, input_sen_len,
+                   target, model, hidden_size):
+    # hidden_tensor = model.initHidden(hidden_size)
+    #
+    # # load  previously training model:
+    # model.load_state_dict(torch.load(CONFIG['save_checkpoint_dir']))
 
-        encoder_outputs = torch.zeros(max_length, encoder.hidden_size, device=device)
+    y_pred = model(input1, input2, input3, input_sen, input1_len, input2_len, input3_len, input_sen_len,
+                   CONFIG['batch_size'], CONFIG['embed_size'], CONFIG['hidden_size'])
 
-        for ei in range(input_length):
-            encoder_output, encoder_hidden = encoder(input_tensor[ei],
-                                                     encoder_hidden)
-            encoder_outputs[ei] += encoder_output[0, 0]
+    # print('2', y_pred.view(-1,2))
+    # # values, indices = torch.max(y_pred, 0)
+    # # print('3', indices.view(-1))
+    # print('4', target)
 
-        decoder_input = torch.tensor([[SOS_token]], device=device)  # SOS
+    # print(y_pred.view(-1, 2))
+    # print('---------------')
+    # print(target)
+    values, indices = torch.max(y_pred, 0)
+    # print(indices)
+    correct = (indices == target).sum()
+    # print(correct)
+    # accuracy = 100 * correct / total
+    # print(accuracy)
 
-        decoder_hidden = encoder_hidden
+    return correct
 
-        decoded_words = []
-        decoder_attentions = torch.zeros(max_length, max_length)
 
-        for di in range(max_length):
-            decoder_output, decoder_hidden, decoder_attention = decoder(
-                decoder_input, decoder_hidden, encoder_outputs)
-            decoder_attentions[di] = decoder_attention.data
-            topv, topi = decoder_output.data.topk(1)
-            if topi.item() == EOS_token:
-                decoded_words.append('<EOS>')
-                break
-            else:
-                decoded_words.append(output_lang.index2word[topi.item()])
 
-            decoder_input = topi.squeeze().detach()
+def testIters(input1, input2, input3, input_sen, input1_len, input2_len, input3_len, input_sen_len,
+               target, model, hidden_size):
+    total_acc = 0
 
-        return decoded_words, decoder_attentions[:di + 1]
+
+    for i in range(input1_len.size()[0]):
+        # print('----->',input3_len[i])
+        try:
+            acc = begin_to_test(input1[i], input2[i], input3[i], input_sen[i], input1_len[i], input2_len[i],
+                                  input3_len[i], input_sen_len[i], target[i], model,
+                                  hidden_size)
+            total_acc += acc
+        except:
+            print('the', i, 'th data has problem')
+
+    print(total_acc)
+    print(input1_len.size()[0])
+    print(float(total_acc) / input1_len.size()[0])
+
+    f = open(CONFIG['save_test_result_dir'], 'w')
+    f.write(str(float(total_acc) / input1_len.size()[0]))
+    f.close()
+
 
 
 ######################################################################
