@@ -33,16 +33,16 @@ class LSTMmodel(nn.Module):
         self.hidden_size_image = hidden_size
         self.hidden_size_sen = hidden_size
         self.embedding = nn.Embedding(vocab_input_size, embedding_size)
-        self.lstm1 = nn.LSTM(fea_input_size, hidden_size, num_layers=2)
-        self.lstm2 = nn.LSTM(fea_input_size, hidden_size, num_layers=2)
-        self.lstm3 = nn.LSTM(fea_input_size, hidden_size, num_layers=2)
-        self.lstm4 = nn.LSTM(embedding_size, hidden_size, num_layers=2)
+        self.lstm1 = nn.LSTM(fea_input_size, hidden_size, num_layers=1)
+        self.lstm2 = nn.LSTM(fea_input_size, hidden_size, num_layers=1)
+        self.lstm3 = nn.LSTM(fea_input_size, hidden_size, num_layers=1)
+        self.lstm4 = nn.LSTM(embedding_size, hidden_size, num_layers=1)
         self.classification = nn.Linear(hidden_size, 2)
 
 
 
     def forward(self, input1, input2, input3, input_sen, input1_len, input2_len,
-                input3_len, input_sen_len, hidden_tensor, batch_size, embed_size, hidden_size):
+                input3_len, input_sen_len, batch_size, embed_size, hidden_size):
         # print(input1)
         # print(input1_len.size())
         pack1 = torch.nn.utils.rnn.pack_padded_sequence(input1.view(batch_size, -1, 9), input1_len, batch_first=True)
@@ -52,6 +52,7 @@ class LSTMmodel(nn.Module):
         output_2, hidden_2 = self.lstm2(pack2, hidden_1)
         pack3 = torch.nn.utils.rnn.pack_padded_sequence(input3.view(batch_size, -1, 9), input3_len, batch_first=True)
         output_3, hidden_3 = self.lstm3(pack3, hidden_2)
+        # output_3, hidden_3 = torch.nn.utils.rnn.pad_packed_sequence(output_3, batch_first=True)
         # encoder_outputs, _ = torch.nn_utils.rnn.pad_packed_sequence(output_3, batch_first=True)
 
         embedded = self.embedding(input_sen).view(batch_size, -1, embed_size)
@@ -59,6 +60,10 @@ class LSTMmodel(nn.Module):
         pack4 = torch.nn.utils.rnn.pack_padded_sequence(output_sen.view(batch_size, -1, embed_size), input_sen_len, batch_first=True)
         output_sen, hidden_4 = self.lstm4(pack4, hidden_3)
         encoder_outputs, hidden_5 = torch.nn.utils.rnn.pad_packed_sequence(output_sen, batch_first=True)
+        # _, _ = torch.nn.utils.rnn.pad_packed_sequence(output_1, batch_first=True)
+        # _, _ = torch.nn.utils.rnn.pad_packed_sequence(output_2, batch_first=True)
+        # _, _ = torch.nn.utils.rnn.pad_packed_sequence(output_3, batch_first=True)
+
         # print('0', encoder_outputs.shape, hidden_5)
         # return output_1, output_2, output_3, output_sen, hidden_1, hidden_2, hidden_3, hidden_4
         y_pred = self.classification(encoder_outputs[-1][3])
