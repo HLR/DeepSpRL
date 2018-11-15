@@ -23,5 +23,6 @@ CONFIG = {
     'save_checkpoint_dir': '../check_point/2.pt',
     'save_train_result_dir': '../result/train/result.txt',
     'save_test_result_dir': '../result/test/result.txt',
-    'TENSORBOARD_DIR': '../tensorboard/1.json'
+    'TENSORBOARD_DIR': '../tensorboard/1.json',
+    'test_github': 'test_github',
 }
