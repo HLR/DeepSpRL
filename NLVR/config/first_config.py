@@ -20,9 +20,11 @@ CONFIG = {
     'learning_rate': 0.01,
     'TRAIN_DIR': '../data/tmp.json',
     'TEST_DIR': '../data/test.json',
-    'save_checkpoint_dir': '../check_point/2.pt',
+    'save_checkpoint_dir': '../check_point/match_1.pt',
     'save_train_result_dir': '../result/train/result.txt',
     'save_test_result_dir': '../result/test/result.txt',
     'TENSORBOARD_DIR': '../tensorboard/1.json',
-    'test_github': 'test_github',
+
+    'MODEL': 'MATCHING',
+    'TOPK' : 10,
 }

@@ -56,7 +56,8 @@ def testIters(input1, input2, input3, input_sen, input1_len, input2_len, input3_
                                   hidden_size)
             total_acc += acc
         except:
-            print('the', i, 'th data has problem')
+            # print('the', i, 'th data has problem')
+            pass
 
     print(total_acc)
     print(input1_len.size()[0])
