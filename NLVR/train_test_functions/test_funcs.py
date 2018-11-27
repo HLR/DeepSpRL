@@ -59,13 +59,17 @@ def testIters(input1, input2, input3, input_sen, input1_len, input2_len, input3_
             # print('the', i, 'th data has problem')
             pass
 
-    print(total_acc)
-    print(input1_len.size()[0])
-    print(float(total_acc) / input1_len.size()[0])
+    # print(total_acc)
+    # print(input1_len.size()[0])
+    # print(float(total_acc) / input1_len.size()[0])
+    print('testing acc is: ', float(total_acc) / input1_len.size()[0], ', total test size is: ', input1_len.size()[0])
 
-    f = open(CONFIG['save_test_result_dir'], 'w')
-    f.write(str(float(total_acc) / input1_len.size()[0]))
-    f.close()
+    writing_res = 'testing acc is: ' + str(float(total_acc) / input1_len.size()[0]) + ', total test size is: ' \
+                  + str(input1_len.size()[0]) + '\n'
+    return writing_res
+    # f = open(CONFIG['save_test_result_dir'], 'w')
+    # f.write(str(float(total_acc) / input1_len.size()[0]))
+    # f.close()
 
 
 

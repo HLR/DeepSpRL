@@ -18,13 +18,14 @@ CONFIG = {
     'print_every': 10,
     'plot_every': 100,
     'learning_rate': 0.01,
-    'TRAIN_DIR': '../data/tmp.json',
+    'TRAIN_DIR': '../data/train.json',
     'TEST_DIR': '../data/test.json',
-    'save_checkpoint_dir': '../check_point/match_1.pt',
-    'save_train_result_dir': '../result/train/result.txt',
-    'save_test_result_dir': '../result/test/result.txt',
+    'save_checkpoint_dir': '../check_point/match_2.pt',
+    'save_train_result_dir': '../result/train/result_1.txt',
+    'save_test_result_dir': '../result/test/result_1.txt',
     'TENSORBOARD_DIR': '../tensorboard/1.json',
 
+    # 'MODEL': 'NLVR',
     'MODEL': 'MATCHING',
     'TOPK' : 10,
 }

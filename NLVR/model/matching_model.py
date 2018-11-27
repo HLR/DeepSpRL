@@ -78,6 +78,6 @@ class matching_model(nn.Module):
         top_k = torch.topk(matrix_2_tensor, CONFIG['TOPK'])[0]
         # print('top_k: ', top_k.shape)
         y_pred = self.classification(top_k)
-        # print("y_pred", y_pred)
-        return y_pred
+        # print("y_pred", y_pred[0])
+        return y_pred[0]
 
