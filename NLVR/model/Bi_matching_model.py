@@ -14,16 +14,16 @@ import sys
 sys.path.append('../')
 from config.first_config import CONFIG
 
-class matching_model(nn.Module):
+class bi_matching_model(nn.Module):
     def __init__(self, vocab_input_size, embedding_size, fea_input_size, hidden_size):
-        super(matching_model, self).__init__()
+        super(bi_matching_model, self).__init__()
         self.hidden_size_image = hidden_size
         self.hidden_size_sen = hidden_size
         self.embedding = nn.Embedding(vocab_input_size, embedding_size)
-        self.lstm1 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
-        self.lstm2 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
-        self.lstm3 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
-        self.lstm4 = nn.LSTM(embedding_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
+        self.lstm1 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'], bidirectional=True)
+        self.lstm2 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'], bidirectional=True)
+        self.lstm3 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'], bidirectional=True)
+        self.lstm4 = nn.LSTM(embedding_size, hidden_size, num_layers=CONFIG['lstm_num_layer'], bidirectional=True)
         self.classification = nn.Linear(CONFIG['TOPK'], 2)
 
 

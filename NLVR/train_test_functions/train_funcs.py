@@ -65,7 +65,7 @@ def trainIters(input1, input2, input3, input_sen, input1_len, input2_len, input3
     print_acc_total = 0
     # plot_loss_total = 0  # Reset every plot_every
 
-    optimizer = optim.SGD(model.parameters(), lr=CONFIG['learning_rate'])
+    optimizer = optim.Adam(model.parameters(), lr=CONFIG['learning_rate'])
     criterion = torch.nn.CrossEntropyLoss()
 
     f_train = open(CONFIG['save_train_result_dir'], 'w')
@@ -76,6 +76,7 @@ def trainIters(input1, input2, input3, input_sen, input1_len, input2_len, input3
         f_test.write(str(key) + ' : ' + str(value) + '\n')
 
     for iter in range(1, CONFIG['n_iters'] + 1):
+        bad_count = 0
         print('it is the ', iter, 'iteration')
         for i in range(input1_len.size()[0]):
             # print('----->',input3_len[i])
@@ -86,6 +87,7 @@ def trainIters(input1, input2, input3, input_sen, input1_len, input2_len, input3
                 print_acc_total += correct
             except:
                 # print('the', i, 'th data has problem')
+                bad_count += 1
                 pass
 
 
@@ -98,13 +100,13 @@ def trainIters(input1, input2, input3, input_sen, input1_len, input2_len, input3
             '''
             train part
             '''
-            print_loss_avg = float(print_loss_total) / input1_len.size()[0]
-            print('training acc is: ', float(print_acc_total) / input1_len.size()[0], ', training loss is: ', print_loss_avg,
-                  ', total training size is: ', input1_len.size()[0])
+            print_loss_avg = float(print_loss_total) / (input1_len.size()[0] - bad_count)
+            print('training acc is: ', float(print_acc_total) / (input1_len.size()[0] - bad_count), ', training loss is: ', print_loss_avg,
+                  ', total training size is: ', (input1_len.size()[0] - bad_count))
 
-            f_train.write('training acc is: ' + str(float(print_acc_total) / input1_len.size()[0]) +
+            f_train.write('training acc is: ' + str(float(print_acc_total) / (input1_len.size()[0] - bad_count)) +
                           ', training loss is: ' + str(print_loss_avg) +
-                          ', total training size is: ' + str(input1_len.size()[0]) + '\n')
+                          ', total training size is: ' + str((input1_len.size()[0] - bad_count)) + '\n')
             f_train.flush()
             print_acc_total = 0
             print_loss_total = 0

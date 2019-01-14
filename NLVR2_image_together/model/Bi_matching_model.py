@@ -86,7 +86,7 @@ class bi_matching_model(nn.Module):
         '''
         CNN will have problem, so i change my mind to extract the top-k element based on my matrix.
         '''
-        matrix_2_tensor = matrix.view(CONFIG['batch_size'], -1)
+        matrix_2_tensor = matrix.view(batch_size, -1)
         # print('matrix_2_tensor: ', matrix_2_tensor.size())
         top_k = torch.topk(matrix_2_tensor, CONFIG['TOPK'])[0]
         # print(', top_k: ', top_k)

@@ -10,6 +10,9 @@ Purpose: Building up the deep model.
 from __future__ import unicode_literals, print_function, division
 import torch
 import torch.nn as nn
+import sys
+sys.path.append('../')
+from config.first_config import CONFIG
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -33,10 +36,10 @@ class LSTMmodel(nn.Module):
         self.hidden_size_image = hidden_size
         self.hidden_size_sen = hidden_size
         self.embedding = nn.Embedding(vocab_input_size, embedding_size)
-        self.lstm1 = nn.LSTM(fea_input_size, hidden_size, num_layers=1)
-        self.lstm2 = nn.LSTM(fea_input_size, hidden_size, num_layers=1)
-        self.lstm3 = nn.LSTM(fea_input_size, hidden_size, num_layers=1)
-        self.lstm4 = nn.LSTM(embedding_size, hidden_size, num_layers=1)
+        self.lstm1 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
+        self.lstm2 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
+        self.lstm3 = nn.LSTM(fea_input_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
+        self.lstm4 = nn.LSTM(embedding_size, hidden_size, num_layers=CONFIG['lstm_num_layer'])
         self.classification = nn.Linear(hidden_size, 2)
 
 

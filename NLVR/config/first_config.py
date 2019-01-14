@@ -7,8 +7,9 @@ Purpose: It is the global config file.
 
 CONFIG = {
     'hidden_size': 128,
-    'embed_size': 64,
+    'embed_size': 128,
     'batch_size': 1,
+    'lstm_num_layer': 2,
 
     'feature_length': 10,
     'MAX_LENGTH': 20,
@@ -26,6 +27,8 @@ CONFIG = {
     'TENSORBOARD_DIR': '../tensorboard/1.json',
 
     # 'MODEL': 'NLVR',
-    'MODEL': 'MATCHING',
-    'TOPK' : 10,
+    # 'MODEL': 'MATCHING',
+    'MODEL': 'BI-MATCHING',
+    # 'MODEL': 'TRANSFORMER',
+    'TOPK': 20,
 }

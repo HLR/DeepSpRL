@@ -14,47 +14,49 @@ from config.first_config import CONFIG
 import time
 import math
 
-def begin_to_test(input1, input2, input3, input_sen, input1_len, input2_len, input3_len, input_sen_len,
-                   target, model, hidden_size):
+def begin_to_test(input1, input2, input3, input_total, input_sen, input1_len, input2_len, input3_len,
+                  input_total_len, input_sen_len, target, model, hidden_size):
     # hidden_tensor = model.initHidden(hidden_size)
     #
     # # load  previously training model:
     # model.load_state_dict(torch.load(CONFIG['save_checkpoint_dir']))
 
-    y_pred = model(input1, input2, input3, input_sen, input1_len, input2_len, input3_len, input_sen_len,
-                   CONFIG['batch_size'], CONFIG['embed_size'], CONFIG['hidden_size'])
+    y_pred = model(input1, input2, input3, input_total, input_sen, input1_len, input2_len, input3_len,
+                   input_total_len, input_sen_len,
+                   1, CONFIG['embed_size'], CONFIG['hidden_size'])
+    # print(y_pred)
 
-    # print('2', y_pred.view(-1,2))
-    # # values, indices = torch.max(y_pred, 0)
-    # # print('3', indices.view(-1))
-    # print('4', target)
-
-    # print(y_pred.view(-1, 2))
-    # print('---------------')
-    # print(target)
-    values, indices = torch.max(y_pred, 0)
-    # print(indices)
-    correct = (indices == target).sum()
+    # # print('2', y_pred.view(-1,2))
+    # # # values, indices = torch.max(y_pred, 0)
+    # # # print('3', indices.view(-1))
+    # # print('4', target)
+    #
+    # # print(y_pred.view(-1, 2))
+    # # print('---------------')
+    # # print(target)
+    # values, indices = torch.max(y_pred, 0)
+    # # print(indices)
+    # correct = (indices == target).sum()
     # print(correct)
-    # accuracy = 100 * correct / total
-    # print(accuracy)
+    # # accuracy = 100 * correct / total
+    # # print(accuracy)
+    _, predicted = torch.max(y_pred, 1)
+    correct = (predicted == target.view(-1)).sum().item()
 
     return correct
 
 
 
-def testIters(input1, input2, input3, input_sen, input1_len, input2_len, input3_len, input_sen_len,
-               target, model, hidden_size):
+def testIters(input1, input2, input3, input_total, input_sen, input1_len, input2_len, input3_len,
+              input_total_len, input_sen_len, target, model, hidden_size):
     total_acc = 0
     bad_count = 0
 
-
-    for i in range(input1_len.size()[0]):
-        # print('----->',input3_len[i])
+    for i in range(0, input1.size()[0]):
         try:
-            acc = begin_to_test(input1[i], input2[i], input3[i], input_sen[i], input1_len[i], input2_len[i],
-                                  input3_len[i], input_sen_len[i], target[i], model,
-                                  hidden_size)
+            acc = begin_to_test(input1[i], input2[i], input3[i], input_total[i], input_sen[i], input1_len[i],
+                                input2_len[i], input_total_len[i],
+                                input3_len[i], input_sen_len[i], target[i], model,hidden_size)
             total_acc += acc
         except:
             # print('the', i, 'th data has problem')
@@ -64,6 +66,7 @@ def testIters(input1, input2, input3, input_sen, input1_len, input2_len, input3_
     # print(total_acc)
     # print(input1_len.size()[0])
     # print(float(total_acc) / input1_len.size()[0])
+    # print(bad_count)
     print('testing acc is: ', float(total_acc) / (input1_len.size()[0] - bad_count), ', total test size is: ', (input1_len.size()[0] - bad_count))
 
     writing_res = 'testing acc is: ' + str(float(total_acc) / (input1_len.size()[0] - bad_count)) + ', total test size is: ' \

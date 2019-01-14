@@ -2,6 +2,8 @@ import torch
 import torch.nn as nn
 import numpy as np
 import torch.nn.functional as F
+import sys
+sys.path.append('../')
 from config.first_config import CONFIG
 
 PAD = 0
@@ -82,10 +84,10 @@ class MultiHeadAttention(nn.Module):
     def forward(self, q, k, v, mask=None):
 
         d_k, d_v, n_head = self.d_k, self.d_v, self.n_head
-        sz_b, len_q, _,  = q.size()
-        sz_b, len_k, _,  = k.size()
-        sz_b, len_v, _,  = v.size()
 
+        sz_b, len_q, _ = q.size()
+        sz_b, len_k, _ = k.size()
+        sz_b, len_v, _ = v.size()
 
         residual = q
 
@@ -209,8 +211,7 @@ def get_attn_key_pad_mask(seq_k, seq_q):
     # Expand to fit the shape of key query attention matrix.
     len_q = seq_q.size(1)
     padding_mask = seq_k.eq(PAD)
-    padding_mask = padding_mask.unsqueeze(1).expand(-1,  len_q, -1)  # b x lq x lk
-
+    padding_mask = padding_mask.unsqueeze(1).expand(-1, len_q, -1)  # b x lq x lk
     return padding_mask
 
 def get_subsequent_mask(seq):
@@ -250,6 +251,7 @@ class Encoder(nn.Module):
     def forward(self, src_seq, return_attns=False):
 
         enc_slf_attn_list = []
+
         # -- Prepare masks
         slf_attn_mask = get_attn_key_pad_mask(seq_k=src_seq, seq_q=src_seq)
         non_pad_mask = get_non_pad_mask(src_seq)
@@ -257,6 +259,7 @@ class Encoder(nn.Module):
         # -- Forward
         # enc_output = self.src_word_emb(src_seq) + self.position_enc(src_pos)
         enc_output = self.src_word_emb(src_seq)
+
         for enc_layer in self.layer_stack:
             enc_output, enc_slf_attn = enc_layer(
                 enc_output,
@@ -368,11 +371,11 @@ class Transformer(nn.Module):
         # "To share word embedding table, the vocabulary size of src/tgt shall be the same."
         # self.encoder_question.src_word_emb.weight = self.decoder_question.tgt_word_emb.weight
 
-    def forward(self, input1, input2, input3, input_total, input_sen, input1_len, input2_len,
-                input3_len, input_total_len, input_sen_len, batch_size, embed_size, hidden_size):
+    def forward(self, input1, input2, input3, input_sen, input1_len, input2_len,
+                input3_len, input_sen_len, batch_size, embed_size, hidden_size):
 
         # embedded = self.embedding(input_sen).view(self.batch_size, -1, self.embedding_size)
-        input_sen = input_sen.view(CONFIG['batch_size'], -1)
+
         enc_output, *_ = self.encoder_question(input_sen)
         # enc_output[enc_output != enc_output] = 0
         # print('enc_output.size(): ', enc_output.size())
@@ -380,52 +383,29 @@ class Transformer(nn.Module):
         # dec_output[dec_output != dec_output] = 0
 
         # print('dec_output.size(): ', dec_output.size())
-        # sentence_output = torch.transpose(dec_output, 0, 1)
-        sentence_output = dec_output
-        # sentence_output = sentence_output[:, :, :]
+        sentence_output = torch.transpose(dec_output, 0, 1)
         # sentence_output = sentence_output[:, 0: input_sen_len, :]
-        print('sentence_output', sentence_output)
+        print(sentence_output.size(), sentence_output)
 
 
 
 
-        # pack1 = torch.nn.utils.rnn.pack_padded_sequence(input1.view(batch_size, -1, 9), input1_len, batch_first=True)
-        # output_1, hidden_1 = self.lstm1(pack1)
-        # output_1, len_1 = torch.nn.utils.rnn.pad_packed_sequence(output_1, batch_first=True)
-        # # print('output_1.size(): ', output_1.size())
-        #
-        # pack2 = torch.nn.utils.rnn.pack_padded_sequence(input2.view(batch_size, -1, 9), input2_len, batch_first=True)
-        # output_2, hidden_2 = self.lstm1(pack2, hidden_1)
-        # output_2, len_2 = torch.nn.utils.rnn.pad_packed_sequence(output_2, batch_first=True)
-        # # print('output_2.size(): ', output_2.size())
-        #
-        # pack3 = torch.nn.utils.rnn.pack_padded_sequence(input3.view(batch_size, -1, 9), input3_len, batch_first=True)
-        # output_3, hidden_3 = self.lstm1(pack3, hidden_2)
-        # output_3, len_3 = torch.nn.utils.rnn.pad_packed_sequence(output_3, batch_first=True)
-        # # print('output_3.size(): ', output_3.size())
-        # # print('-------------------------------------------------------')
+        pack1 = torch.nn.utils.rnn.pack_padded_sequence(input1.view(batch_size, -1, 9), input1_len, batch_first=True)
+        output_1, hidden_1 = self.lstm1(pack1)
+        output_1, len_1 = torch.nn.utils.rnn.pad_packed_sequence(output_1, batch_first=True)
+        # print('output_1.size(): ', output_1.size())
 
-        # output_1, hidden_1 = self.lstm1(input1.view(batch_size, -1, 9))
-        # output_2, hidden_2 = self.lstm1(input2.view(batch_size, -1, 9))
-        # output_3, hidden_3 = self.lstm1(input3.view(batch_size, -1, 9))
-        # # print(input1.view(batch_size, -1, 9).size(), input2.view(batch_size, -1, 9).size(), input3.view(batch_size, -1, 9).size())
-        # # print(input1_len.size(), input2_len.size(), input3_len.size())
-        # output_1 = output_1[:, :, :]
-        # output_2 = output_2[:, :, :]
-        # output_3 = output_3[:, :, :]
-        # image_output = torch.cat([output_1, output_2, output_3], dim=1)
-        # print('image_output.size():', image_output.size())
-        # print('-------------------------------------------------------')
+        pack2 = torch.nn.utils.rnn.pack_padded_sequence(input2.view(batch_size, -1, 9), input2_len, batch_first=True)
+        output_2, hidden_2 = self.lstm1(pack2, hidden_1)
+        output_2, len_2 = torch.nn.utils.rnn.pad_packed_sequence(output_2, batch_first=True)
+        # print('output_2.size(): ', output_2.size())
 
-        image_output, hidden_1 = self.lstm1(input_total.view(batch_size, -1, 9))
-        print('image_output: ', image_output)
-
-
-
-        # print('image_output: ', image_output.size(), image_output)
-        # print('image_output[:, 0: 10, :]: ', image_output[:, 0: 10, :].size(), image_output[:, 0: 10, :])
-        # print('image_output[:, 10: 20, :]: ', image_output[:, 10: 20, :].size(), image_output[:, 10: 20, :])
-        # print('image_output[:, 20: 30, :]: ', image_output[:, 20: 30, :].size(), image_output[:, 20: 30, :])
+        pack3 = torch.nn.utils.rnn.pack_padded_sequence(input3.view(batch_size, -1, 9), input3_len, batch_first=True)
+        output_3, hidden_3 = self.lstm1(pack3, hidden_2)
+        output_3, len_3 = torch.nn.utils.rnn.pad_packed_sequence(output_3, batch_first=True)
+        # print('output_3.size(): ', output_3.size())
+        image_output = torch.cat([output_1, output_2, output_3], dim=1)
+        print('image_output: ', image_output.size(), image_output)
 
 
         '''
@@ -437,13 +417,11 @@ class Transformer(nn.Module):
         '''
         CNN will have problem, so i change my mind to extract the top-k element based on my matrix.
         '''
-        matrix_2_tensor = matrix.view(batch_size, -1)
+        matrix_2_tensor = matrix.view(CONFIG['batch_size'], -1)
         # print('matrix_2_tensor: ', matrix_2_tensor.size())
         top_k = torch.topk(matrix_2_tensor, CONFIG['TOPK'])[0]
-        print('top_k.shape: ', top_k.shape, ', top_k: ', top_k)
+        # print('top_k.shape: ', top_k.shape, ', top_k: ', top_k)
         y_pred = self.classification(top_k)
         # print("y_pred", y_pred[0])
-        # print('y_pred.size: ', y_pred.size(), ', y_pred:', y_pred)
-        # print('-----------------------------------------------')
-        # return y_pred[0]
-        return y_pred
+        # print('y_pred.size: ', y_pred, ', y_pred:', y_pred)
+        return y_pred[0]

@@ -184,6 +184,7 @@ def image_feature_tensor(feature_data, label, max_length):
         input_0_len.append(len(feature_data[i][0]))
         input_1_len.append(len(feature_data[i][1]))
         input_2_len.append(len(feature_data[i][2]))
+        input_total_len.append(len(feature_data[i][0]) + len(feature_data[i][1]) + len(feature_data[i][2]))
         input_0.append(feature_data[i][0] + [[0, 0, 0, 0, 0, 0, 0, 0, 0]]*(max_length-len(feature_data[i][0])))
         input_1.append(feature_data[i][1] + [[0, 0, 0, 0, 0, 0, 0, 0, 0]]*(max_length-len(feature_data[i][1])))
         input_2.append(feature_data[i][2] + [[0, 0, 0, 0, 0, 0, 0, 0, 0]]*(max_length-len(feature_data[i][2])))
