@@ -63,6 +63,7 @@ class MultiHeadAttention(nn.Module):
         self.d_k = d_k
         self.d_v = d_v
 
+        # print(d_model, n_head, d_k, n_head * d_k)
         self.w_qs = nn.Linear(d_model, n_head * d_k)
         self.w_ks = nn.Linear(d_model, n_head * d_k)
         self.w_vs = nn.Linear(d_model, n_head * d_v)
@@ -89,6 +90,11 @@ class MultiHeadAttention(nn.Module):
 
         residual = q
 
+        # print("q.size():", q.size())
+        # # print('self.w_qs(q).size(): ', self.w_qs(q).size())
+        # q = torch.cat([q]*n_head, 1).view(sz_b, len_q, n_head, d_k)
+        # print("q.size():", q.size())
+        # print('self.w_qs(q).size(): ', self.w_qs(q).size())
         q = self.w_qs(q).view(sz_b, len_q, n_head, d_k)
         k = self.w_ks(k).view(sz_b, len_k, n_head, d_k)
         v = self.w_vs(v).view(sz_b, len_v, n_head, d_v)
@@ -329,7 +335,7 @@ class Decoder(nn.Module):
 class Transformer(nn.Module):
     def __init__(
             self, vocab_input_size, fea_input_size,
-            d_model=128, d_inner=2048, n_layers=6, n_head=8, d_k=64, d_v=64, dropout=0.1):
+            d_model=CONFIG['embed_size'], d_inner=2048, n_layers=6, n_head=8, d_k=CONFIG['embed_size']//8, d_v=CONFIG['embed_size']//8, dropout=0.1):
 
         super().__init__()
 
@@ -340,6 +346,9 @@ class Transformer(nn.Module):
         self.batch_size = CONFIG['batch_size']
         self.embedding = nn.Embedding(self.vocab_input_size, self.embedding_size)
 
+        '''
+        Transformer model for sentence
+        '''
         self.encoder_question = Encoder(
             n_src_vocab=vocab_input_size, len_max_seq=CONFIG['MAX_LENGTH'],
             d_word_vec=self.embedding_size, d_model=d_model, d_inner=d_inner,
@@ -352,7 +361,23 @@ class Transformer(nn.Module):
             n_layers=n_layers, n_head=n_head, d_k=d_k, d_v=d_v,
             dropout=dropout)
 
-        self.lstm1 = nn.LSTM(fea_input_size, self.embedding_size, num_layers=CONFIG['lstm_num_layer'])
+        self.lstm1 = nn.RNN(fea_input_size, self.embedding_size, num_layers=CONFIG['lstm_num_layer'], nonlinearity='relu')
+        '''
+        Custom Lstm
+        '''
+        # self.nlayers = 1
+        # self.dropout = nn.Dropout(p=0.1)
+        #
+        # ih, hh = [], []
+        # for i in range(self.nlayers):
+        #     ih.append(nn.Linear(self.fea_input_size, 4 * self.hidden_size))
+        #     hh.append(nn.Linear(self.hidden_size, 4 * self.hidden_size))
+        # self.w_ih = nn.ModuleList(ih)
+        # self.w_hh = nn.ModuleList(hh)
+
+        '''
+        Final classification
+        '''
         self.classification = nn.Linear(CONFIG['TOPK'], 2)
 
         # self.tgt_word_prj = nn.Linear(d_model, self.vocab_input_size, bias=False)
@@ -417,8 +442,34 @@ class Transformer(nn.Module):
         # print('image_output.size():', image_output.size())
         # print('-------------------------------------------------------')
 
+        '''
+        sharing the lstm layer
+        '''
         image_output, hidden_1 = self.lstm1(input_total.view(batch_size, -1, 9))
         print('image_output: ', image_output)
+
+        '''
+        Custom sharing the lstm layer
+        '''
+        # hy, cy = [], []
+        # for i in range(self.nlayers):
+        #     hx, cx = hidden[0][i], hidden[1][i]
+        #     gates = self.w_ih[i](input) + self.w_hh[i](hx)
+        #     i_gate, f_gate, c_gate, o_gate = gates.chunk(4, 1)
+        #
+        #     i_gate = F.sigmoid(i_gate)
+        #     f_gate = F.sigmoid(f_gate)
+        #     c_gate = F.tanh(c_gate)
+        #     o_gate = F.sigmoid(o_gate)
+        #
+        #     ncx = (f_gate * cx) + (i_gate * c_gate)
+        #     nhx = o_gate * F.tanh(ncx)
+        #     cy.append(ncx)
+        #     hy.append(nhx)
+        #     input = self.dropout(nhx)
+        #
+        # image_output, cy = torch.stack(hy, 0), torch.stack(cy, 0)
+        # print('image_output.size(): ', image_output.size())
 
 
 
@@ -440,7 +491,7 @@ class Transformer(nn.Module):
         matrix_2_tensor = matrix.view(batch_size, -1)
         # print('matrix_2_tensor: ', matrix_2_tensor.size())
         top_k = torch.topk(matrix_2_tensor, CONFIG['TOPK'])[0]
-        print('top_k.shape: ', top_k.shape, ', top_k: ', top_k)
+        # print('top_k.shape: ', top_k.shape, ', top_k: ', top_k)
         y_pred = self.classification(top_k)
         # print("y_pred", y_pred[0])
         # print('y_pred.size: ', y_pred.size(), ', y_pred:', y_pred)

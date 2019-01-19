@@ -7,9 +7,9 @@ Purpose: It is the global config file.
 
 CONFIG = {
     'hidden_size': 128,
-    'embed_size': 128,
+    'embed_size': 64,
     'batch_size': 32,
-    'lstm_num_layer': 2,
+    'lstm_num_layer': 1,
 
     'feature_length': 10,
     'MAX_LENGTH': 20,
@@ -30,7 +30,7 @@ CONFIG = {
 
     # 'MODEL': 'NLVR',
     # 'MODEL': 'MATCHING',
-    'MODEL': 'BI-MATCHING',
-    # 'MODEL': 'TRANSFORMER',
+    # 'MODEL': 'BI-MATCHING',
+    'MODEL': 'TRANSFORMER',
     'TOPK': 20,
 }
