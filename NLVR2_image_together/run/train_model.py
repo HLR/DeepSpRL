@@ -15,6 +15,8 @@ from model.NLVR_model import LSTMmodel
 from model.matching_model import matching_model
 from model.Bi_matching_model import bi_matching_model
 from model.Transformer_model import Transformer
+from model.transformer_transformer_matching import Transformer2
+from model.transformer3 import Transformer3
 from data_helper.data_helper import read_file, preprocess_sentence, image_feature_tensor, sentence_to_tensor
 from train_test_functions.train_funcs import trainIters
 from train_test_functions.test_funcs import testIters
@@ -53,6 +55,13 @@ elif CONFIG['MODEL'] == 'BI-MATCHING':
 elif CONFIG['MODEL'] == 'TRANSFORMER':
     model = Transformer(n_words, 9)
     # print(model)
+elif CONFIG['MODEL'] == 'TRANSFORMER-TRANSFORMER-MATCHING':
+    model = Transformer2(n_words, 9)
+    # print(model)
+elif CONFIG['MODEL'] == 'TRANSFORMER3':
+    model = Transformer3(n_words, 9)
+    # print(model)
+
 
 
 input_data_test, sentences_test, label_test = read_file(CONFIG['TEST_DIR'])
@@ -60,7 +69,6 @@ input_data_test, sentences_test, label_test = read_file(CONFIG['TEST_DIR'])
 input_0_test, input_1_test, input_2_test, input_total_test, input_0_len_test, input_1_len_test, \
     input_2_len_test, input_total_len_test, target_test = image_feature_tensor(input_data_test, label_test, CONFIG['feature_length'])
 input_tensor_test, input_length_test = sentence_to_tensor(word2index, sentences_test, CONFIG['MAX_LENGTH'])
-
 
 trainIters(input_0, input_1, input_2, input_total, input_tensor, input_0_len, input_1_len,
            input_2_len, input_total_len, input_length, target, model, CONFIG['hidden_size'],

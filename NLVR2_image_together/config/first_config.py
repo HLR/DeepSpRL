@@ -8,7 +8,7 @@ Purpose: It is the global config file.
 CONFIG = {
     'hidden_size': 128,
     'embed_size': 64,
-    'batch_size': 32,
+    'batch_size': 64,
     'lstm_num_layer': 1,
 
     'feature_length': 10,
@@ -18,7 +18,7 @@ CONFIG = {
     'n_iters': 100,
     'print_every': 10,
     'plot_every': 100,
-    'learning_rate': 0.01,
+    'learning_rate': 0.001,
     'TRAIN_DIR': '../data/train.json',
     'TEST_DIR': '../data/test.json',
     'save_checkpoint_dir': '../check_point/match_2.pt',
@@ -31,6 +31,9 @@ CONFIG = {
     # 'MODEL': 'NLVR',
     # 'MODEL': 'MATCHING',
     # 'MODEL': 'BI-MATCHING',
-    'MODEL': 'TRANSFORMER',
+    # 'MODEL': 'TRANSFORMER',
+    # 'MODEL': 'TRANSFORMER-TRANSFORMER-MATCHING',
+    'MODEL': 'TRANSFORMER-TRANSFORMER-MATCHING-CNN',
+    # 'MODEL': 'TRANSFORMER3',
     'TOPK': 20,
 }

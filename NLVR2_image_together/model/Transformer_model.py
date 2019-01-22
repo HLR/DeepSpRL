@@ -397,7 +397,7 @@ class Transformer(nn.Module):
                 input3_len, input_total_len, input_sen_len, batch_size, embed_size, hidden_size):
 
         # embedded = self.embedding(input_sen).view(self.batch_size, -1, self.embedding_size)
-        input_sen = input_sen.view(CONFIG['batch_size'], -1)
+        input_sen = input_sen.view(batch_size, -1)
         enc_output, *_ = self.encoder_question(input_sen)
         # enc_output[enc_output != enc_output] = 0
         # print('enc_output.size(): ', enc_output.size())

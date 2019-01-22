@@ -42,12 +42,15 @@ def begin_to_train(input1, input2, input3, input_total, input_sen, input1_len, i
 
     _, predicted = torch.max(y_pred, 1)
     correct = (predicted == target.view(-1)).sum().item()
-    # print("correct = ", correct)
+    #print("correct = ", correct)
 
     loss = criterion(y_pred, target.view(-1))
+    # print(y_pred.size(), target.view(-1).size())
+
     loss.backward()
     optimizer.step()
-    return loss, correct
+    print("correct = ", correct, ' loss=', loss.item())
+    return loss.item(), correct
 
 
 def trainIters(input1, input2, input3, input_total, input_sen, input1_len, input2_len, input3_len,
@@ -82,43 +85,43 @@ def trainIters(input1, input2, input3, input_total, input_sen, input1_len, input
             # print('-------------------------------------------------------------')
 
 
-            loss, correct = begin_to_train(input1[i:i+CONFIG['batch_size']],
-                                           input2[i:i+CONFIG['batch_size']],
-                                           input3[i:i+CONFIG['batch_size']],
-                                           input_total[i:i+CONFIG['batch_size']],
-                                           input_sen[i:i+CONFIG['batch_size']],
-                                           input1_len[i:i+CONFIG['batch_size']],
-                                           input2_len[i:i+CONFIG['batch_size']],
-                                           input3_len[i:i+CONFIG['batch_size']],
-                                           input_total_len[i:i+CONFIG['batch_size']],
-                                           input_sen_len[i:i+CONFIG['batch_size']],
-                                           target[i:i+CONFIG['batch_size']],
-                                           model, optimizer, criterion, hidden_size)
-            # loss, correct = begin_to_train(input1[i], input2[i], input3[i], input_sen[i], input1_len[i], input2_len[i],
-            #                                input3_len[i], input_sen_len[i], target[i], model, optimizer, criterion, hidden_size)
+            # loss, correct = begin_to_train(input1[i:i+CONFIG['batch_size']],
+            #                                input2[i:i+CONFIG['batch_size']],
+            #                                input3[i:i+CONFIG['batch_size']],
+            #                                input_total[i:i+CONFIG['batch_size']],
+            #                                input_sen[i:i+CONFIG['batch_size']],
+            #                                input1_len[i:i+CONFIG['batch_size']],
+            #                                input2_len[i:i+CONFIG['batch_size']],
+            #                                input3_len[i:i+CONFIG['batch_size']],
+            #                                input_total_len[i:i+CONFIG['batch_size']],
+            #                                input_sen_len[i:i+CONFIG['batch_size']],
+            #                                target[i:i+CONFIG['batch_size']],
+            #                                model, optimizer, criterion, hidden_size)
+            # # loss, correct = begin_to_train(input1[i], input2[i], input3[i], input_sen[i], input1_len[i], input2_len[i],
+            # #                                input3_len[i], input_sen_len[i], target[i], model, optimizer, criterion, hidden_size)
+            #
+            # print_loss_total += loss
+            # print_acc_total += correct
 
-            print_loss_total += loss
-            print_acc_total += correct
-
-            # try:
-            #     loss, correct = begin_to_train(input1[i:i + CONFIG['batch_size']],
-            #                                    input2[i:i + CONFIG['batch_size']],
-            #                                    input3[i:i + CONFIG['batch_size']],
-            #                                    input_total[i:i + CONFIG['batch_size']],
-            #                                    input_sen[i:i + CONFIG['batch_size']],
-            #                                    input1_len[i:i + CONFIG['batch_size']],
-            #                                    input2_len[i:i + CONFIG['batch_size']],
-            #                                    input3_len[i:i + CONFIG['batch_size']],
-            #                                    input_total_len[i:i + CONFIG['batch_size']],
-            #                                    input_sen_len[i:i + CONFIG['batch_size']],
-            #                                    target[i:i + CONFIG['batch_size']],
-            #                                    model, optimizer, criterion, hidden_size)
-            #     print_loss_total += loss
-            #     print_acc_total += correct
-            # except:
-            #     # print('the', i, 'th data has problem')
-            #     bad_count += 1
-            #     pass
+            try:
+                loss, correct = begin_to_train(input1[i:i + CONFIG['batch_size']],
+                                               input2[i:i + CONFIG['batch_size']],
+                                               input3[i:i + CONFIG['batch_size']],
+                                               input_total[i:i + CONFIG['batch_size']],
+                                               input_sen[i:i + CONFIG['batch_size']],
+                                               input1_len[i:i + CONFIG['batch_size']],
+                                               input2_len[i:i + CONFIG['batch_size']],
+                                               input3_len[i:i + CONFIG['batch_size']],
+                                               input_total_len[i:i + CONFIG['batch_size']],
+                                               input_sen_len[i:i + CONFIG['batch_size']],
+                                               target[i:i + CONFIG['batch_size']],
+                                               model, optimizer, criterion, hidden_size)
+                print_loss_total += loss
+                print_acc_total += correct
+            except:
+                # print('the', i, 'th data has problem')
+                bad_count += 1
+                pass
 
 
             # if (iter*(input1.size()[0])+i) % CONFIG['print_every'] == 0:
@@ -130,7 +133,7 @@ def trainIters(input1, input2, input3, input_total, input_sen, input1_len, input
             '''
             train part
             '''
-            print_loss_avg = float(print_loss_total) / (input1_len.size()[0] - bad_count)
+            print_loss_avg = float(print_loss_total) / (input1_len.size()[0] // CONFIG['batch_size'])
             print('training acc is: ', float(print_acc_total) / (input1_len.size()[0] - bad_count), ', training loss is: ', print_loss_avg,
                   ', total training size is: ', (input1_len.size()[0] - bad_count))
 
