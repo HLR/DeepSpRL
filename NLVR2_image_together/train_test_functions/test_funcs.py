@@ -42,7 +42,7 @@ def begin_to_test(input1, input2, input3, input_total, input_sen, input1_len, in
     # # print(accuracy)
     _, predicted = torch.max(y_pred, 1)
     correct = (predicted == target.view(-1)).sum().item()
-
+    # print(correct)
     return correct
 
 

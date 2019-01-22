@@ -25,22 +25,21 @@ of objects in the subimages.
 and then compute the similarity between (n, embed_size) and (n, embed_size), and then choose true or false.
 '''
 
-
 '''
 ScaledDotProductAttention, Multiheadlayer and PositionwiseFeedForward
 '''
 
+
 class ScaledDotProductAttention(nn.Module):
     ''' Scaled Dot-Product Attention '''
 
-    def __init__(self, temperature, attn_dropout=0.1):
+    def __init__(self, temperature, attn_dropout=0):
         super().__init__()
         self.temperature = temperature
         self.dropout = nn.Dropout(attn_dropout)
         self.softmax = nn.Softmax(dim=2)
 
     def forward(self, q, k, v, mask=None):
-
         attn = torch.bmm(q, k.transpose(1, 2))
         attn = attn / self.temperature
 
@@ -57,7 +56,7 @@ class ScaledDotProductAttention(nn.Module):
 class MultiHeadAttention(nn.Module):
     ''' Multi-Head Attention module '''
 
-    def __init__(self, n_head, d_model, d_k, d_v, dropout=0.1):
+    def __init__(self, n_head, d_model, d_k, d_v, dropout=0):
         super().__init__()
 
         self.n_head = n_head
@@ -79,24 +78,21 @@ class MultiHeadAttention(nn.Module):
 
         self.dropout = nn.Dropout(dropout)
 
-
     def forward(self, q, k, v, mask=None):
-
         d_k, d_v, n_head = self.d_k, self.d_v, self.n_head
         # print(q.size(), k.size(), v.size())
-        sz_b, len_q, _,  = q.size()
-        sz_b, len_k, _,  = k.size()
-        sz_b, len_v, _,  = v.size()
-
+        sz_b, len_q, _, = q.size()
+        sz_b, len_k, _, = k.size()
+        sz_b, len_v, _, = v.size()
 
         residual = q
         q = self.w_qs(q).view(sz_b, len_q, n_head, d_k)
         k = self.w_ks(k).view(sz_b, len_k, n_head, d_k)
         v = self.w_vs(v).view(sz_b, len_v, n_head, d_v)
 
-        q = q.permute(2, 0, 1, 3).contiguous().view(-1, len_q, d_k) # (n*b) x lq x dk
-        k = k.permute(2, 0, 1, 3).contiguous().view(-1, len_k, d_k) # (n*b) x lk x dk
-        v = v.permute(2, 0, 1, 3).contiguous().view(-1, len_v, d_v) # (n*b) x lv x dv
+        q = q.permute(2, 0, 1, 3).contiguous().view(-1, len_q, d_k)  # (n*b) x lq x dk
+        k = k.permute(2, 0, 1, 3).contiguous().view(-1, len_k, d_k)  # (n*b) x lk x dk
+        v = v.permute(2, 0, 1, 3).contiguous().view(-1, len_v, d_v)  # (n*b) x lv x dv
 
         # mask = mask.repeat(n_head, 1, 1) # (n*b) x .. x ..
         # output, attn = self.attention(q, k, v, mask=mask)
@@ -104,20 +100,21 @@ class MultiHeadAttention(nn.Module):
         output, attn = self.attention(q, k, v)
 
         output = output.view(n_head, sz_b, len_q, d_v)
-        output = output.permute(1, 2, 0, 3).contiguous().view(sz_b, len_q, -1) # b x lq x (n*dv)
+        output = output.permute(1, 2, 0, 3).contiguous().view(sz_b, len_q, -1)  # b x lq x (n*dv)
 
         output = self.dropout(self.fc(output))
         output = self.layer_norm(output + residual)
 
         return output, attn
 
+
 class PositionwiseFeedForward(nn.Module):
     ''' A two-feed-forward-layer module '''
 
-    def __init__(self, d_in, d_hid, dropout=0.1):
+    def __init__(self, d_in, d_hid, dropout=0):
         super().__init__()
-        self.w_1 = nn.Conv1d(d_in, d_hid, 1) # position-wise
-        self.w_2 = nn.Conv1d(d_hid, d_in, 1) # position-wise
+        self.w_1 = nn.Conv1d(d_in, d_hid, 1)  # position-wise
+        self.w_2 = nn.Conv1d(d_hid, d_in, 1)  # position-wise
         self.layer_norm = nn.LayerNorm(d_in)
         self.dropout = nn.Dropout(dropout)
 
@@ -131,15 +128,15 @@ class PositionwiseFeedForward(nn.Module):
         return output
 
 
-
 '''
 Encoder layer and Decoder Layer.
 '''
 
+
 class EncoderLayer(nn.Module):
     ''' Compose with two layers '''
 
-    def __init__(self, d_model, d_inner, n_head, d_k, d_v, dropout=0.1):
+    def __init__(self, d_model, d_inner, n_head, d_k, d_v, dropout=0):
         super(EncoderLayer, self).__init__()
         self.slf_attn = MultiHeadAttention(
             n_head, d_model, d_k, d_v, dropout=dropout)
@@ -156,14 +153,13 @@ class EncoderLayer(nn.Module):
         return enc_output, enc_slf_attn
 
 
-
 class Encoder(nn.Module):
     ''' A encoder model with self attention mechanism. '''
 
     def __init__(
             self,
             n_layers, n_head, d_k, d_v,
-            d_model, d_inner, dropout=0.1):
+            d_model, d_inner, dropout=0):
 
         super().__init__()
 
@@ -187,11 +183,11 @@ class Encoder(nn.Module):
         return enc_output,
 
 
-
 class Transformer2(nn.Module):
     def __init__(
             self, vocab_input_size, fea_input_size,
-            d_model=CONFIG['embed_size'], d_inner=2048, n_layers=6, n_head=8, d_k=CONFIG['embed_size']//8, d_v=CONFIG['embed_size']//8, dropout=0.1):
+            d_model=CONFIG['embed_size'], d_inner=2048, n_layers=6, n_head=8, d_k=CONFIG['embed_size'] // 8,
+            d_v=CONFIG['embed_size'] // 8, dropout=0):
 
         super().__init__()
 
@@ -209,7 +205,6 @@ class Transformer2(nn.Module):
             d_model=d_model, d_inner=d_inner,
             n_layers=n_layers, n_head=n_head, d_k=d_k, d_v=d_v,
             dropout=dropout)
-
 
         '''
         Transformer model for image
@@ -237,20 +232,26 @@ class Transformer2(nn.Module):
             self.conv1 = nn.Sequential(  # input shape (1, 28, 28)
                 nn.Conv2d(
                     in_channels=1,  # input height
-                    out_channels=16,  # n_filters
+                    out_channels=20,  # n_filters
                     kernel_size=5,  # filter size
                     stride=1,  # filter movement/step
-                    padding=2,
+                    padding=0,
                 ),
                 nn.ReLU(),  # activation
+                nn.BatchNorm2d(20),
                 nn.MaxPool2d(kernel_size=2),
             )
             self.conv2 = nn.Sequential(
-                nn.Conv2d(16, 32, 5, 1, 2),
+                nn.Conv2d(20, 50, 5, 1, 0),
                 nn.ReLU(),
+                nn.BatchNorm2d(50),
                 nn.MaxPool2d(2),
             )
-            self.out = nn.Linear(32 * 7 * 7, 2)  # fully connected layer, output 10 classes
+            self.out = nn.Sequential(
+                nn.Linear(1200, 500),  # fully connected layer, output 10 classes
+                # nn.BatchNorm1d(500),
+                nn.Linear(500, 2),
+            )
 
     def forward(self, input1, input2, input3, input_total, input_sen, input1_len, input2_len,
                 input3_len, input_total_len, input_sen_len, batch_size, embed_size, hidden_size):
@@ -281,7 +282,7 @@ class Transformer2(nn.Module):
         '''
         CNN will have problem, so i change my mind to extract the top-k element based on my matrix.
         '''
-        if CONFIG['MODEL'] =='TRANSFORMER-TRANSFORMER-MATCHING':
+        if CONFIG['MODEL'] == 'TRANSFORMER-TRANSFORMER-MATCHING':
             matrix_2_tensor = matrix.view(batch_size, -1)
             top_k = torch.topk(matrix_2_tensor, CONFIG['TOPK'])[0]
             # print('top_k.shape: ', top_k.shape, ', top_k: ', top_k)
@@ -290,11 +291,21 @@ class Transformer2(nn.Module):
             y_pred = self.classification(matrix_2_tensor)
 
         elif CONFIG['MODEL'] == 'TRANSFORMER-TRANSFORMER-MATCHING-CNN':
+            # print('111111111')
+            matrix = matrix.view(batch_size, 1, CONFIG['MAX_LENGTH'] * 3, CONFIG['MAX_LENGTH'])
+            # print('come here1')
             x = self.conv1(matrix)
+            # print('22222222')
+            # print('come here2')
             x = self.conv2(x)
+
+            # print('come here3')
+            # print(x.size(),x.size(0))
+            # print('3333333333')
             x = x.view(x.size(0), -1)  # 展平多维的卷积图成 (batch_size, 32 * 7 * 7)
+            # print('444444444')
             y_pred = self.out(x)
 
-
+        # print(y_pred)
 
         return y_pred
