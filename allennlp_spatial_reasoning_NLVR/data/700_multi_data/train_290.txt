@@ -1,0 +1,1 @@
+There are at least two towers with the same color.

@@ -1,0 +1,1 @@
+ll the towers have at least one block that is the same in color.

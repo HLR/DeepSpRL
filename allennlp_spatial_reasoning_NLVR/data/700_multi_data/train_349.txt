@@ -1,0 +1,1 @@
+there are exactly three black objects not touching the any edge.

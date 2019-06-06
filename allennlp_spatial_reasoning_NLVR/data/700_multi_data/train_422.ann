@@ -1,0 +1,49 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	EB 20 28	multiple
+T7	EE 29 36	objects
+T8	EO 37 42	which
+T9	IN 43 46	has
+T10	EB 47 51	only
+T11	EI 52 55	one
+T12	EI 56 61	black
+T13	EI 62 68	object
+T14	EI 69 73	that
+T15	EI 74 76	is
+T16	EE 77 83	circle
+T17	quantity 9 10	a
+T18	spatial-entity 11 14	box
+T19	quantity 20 28	multiple
+T20	spatial-entity 29 36	objects
+T21	PP 43 46	has
+E1	PP:T21 arg1:T36 arg2:T35 arg3:T37
+T22	Topology 43 46	has
+E2	Topology:T22 arg1:T36 arg2:T35 arg3:T37
+T23	Sp-rel 43 46	has
+E3	Sp-rel:T23 arg1:T36 arg2:T35 arg3:T37
+T24	PP 15 19	with
+E4	PP:T24 arg1:T33 arg2:T32 arg3:T34
+T25	Topology 15 19	with
+E5	Topology:T25 arg1:T33 arg2:T32 arg3:T34
+T26	Sp-rel 15 19	with
+E6	Sp-rel:T26 arg1:T33 arg2:T32 arg3:T34
+T27	compare-value 47 51	only
+T28	quantity 52 55	one
+T29	color-value 56 61	black
+T30	spatial-entity 62 68	object
+T31	spa-value 77 83	circle
+R1	count Arg1:T17 Arg2:T18	
+T32	trajector 11 14	box
+T33	indicator 15 19	with
+R2	count Arg1:T19 Arg2:T20	
+T34	landmark 29 36	objects
+T35	trajector 29 36	objects
+T36	indicator 43 46	has
+R3	compare Arg1:T27 Arg2:T30	
+R4	count Arg1:T28 Arg2:T30	
+R5	color Arg1:T29 Arg2:T30	
+R6	space Arg1:T31 Arg2:T30	
+T37	landmark 62 68	object

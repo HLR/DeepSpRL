@@ -1,0 +1,1 @@
+There is no item closely touching a wall of a box.

@@ -1,0 +1,1 @@
+Each box has at least 1 yellow item in it.

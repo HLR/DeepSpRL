@@ -1,0 +1,1 @@
+ll black squares are touching the edge.

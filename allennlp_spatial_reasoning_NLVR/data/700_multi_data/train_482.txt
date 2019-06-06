@@ -1,0 +1,1 @@
+at least one grey box contains exactly four objects.

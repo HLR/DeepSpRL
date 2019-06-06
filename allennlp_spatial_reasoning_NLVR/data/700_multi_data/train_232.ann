@@ -1,0 +1,30 @@
+T1	EB 0 3	The
+T2	EI 4 10	second
+T3	EE 11 16	block
+T4	IN 17 21	from
+T6	EB 26 30	base
+T7	EI 31 33	of
+T8	EI 34 35	a
+T9	EE 36 41	tower
+T10	EO 42 44	is
+T11	EO 45 49	blue
+T13	quantity 0 3	The
+T12	spatial-entity 11 16	block
+R1	count Arg1:T13 Arg2:T12	
+T14	Distance 17 21	from
+E1	Distance:T14 arg1:T24 arg2:T23 arg3:T27
+T15	DC 17 21	from
+E2	DC:T15 arg1:T24 arg2:T23 arg3:T27
+T16	Sp-rel 17 21	from
+E3	Sp-rel:T16 arg1:T24 arg2:T23 arg3:T27
+T19	spa-value 26 30	base
+T20	quantity 34 35	a
+T21	spatial-entity 36 41	tower
+R3	count Arg1:T20 Arg2:T21	
+T23	trajector 11 16	block
+T24	indicator 17 21	from
+T26	spa-value 4 10	second
+R6	space Arg1:T26 Arg2:T12	
+T27	landmark 36 41	tower
+T17	EO 22 25	the
+R2	space Arg1:T19 Arg2:T12	

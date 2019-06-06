@@ -1,0 +1,1 @@
+there is exactly one tower with a black block at the base.

@@ -1,0 +1,30 @@
+T2	EB 0 3	Two
+T3	EI 4 6	of
+T4	EI 7 10	the
+T5	EI 11 16	three
+T6	EE 17 23	towers
+T7	IN 24 27	has
+T8	EO 28 31	the
+T9	EB 32 36	same
+T10	EI 37 41	base
+T11	EI 42 47	color
+T12	EI 48 52	that
+T13	EI 53 55	is
+T14	EI 56 59	not
+T15	EE 60 65	black
+T16	quantity 11 16	three
+T17	spatial-entity 17 23	towers
+T18	PP 25 26	has
+E1	PP:T18 arg1:T27
+T19	Topology 24 27	has
+E2	Topology:T19 arg1:T27 arg2:T26
+T20	Sp-rel 24 27	has
+E3	Sp-rel:T20 arg1:T27 arg2:T26
+T21	compare-value 32 36	same
+T22	spa-value 37 41	base
+T23	color-value 42 47	color
+T24	compare-value 56 59	not
+T25	color-value 60 65	black
+R2	count Arg1:T16 Arg2:T17	
+T26	trajector 17 23	towers
+T27	indicator 24 27	has

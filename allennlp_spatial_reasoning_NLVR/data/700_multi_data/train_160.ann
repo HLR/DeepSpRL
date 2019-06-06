@@ -1,0 +1,28 @@
+T1	EB 0 2	at
+T2	EI 3 8	least
+T3	EI 9 10	2
+T4	EI 11 15	blue
+T5	EE 16 23	squares
+T6	EO 24 27	are
+T7	IN 28 36	touching
+T8	EO 37 40	the
+T9	E 41 45	wall
+T10	compare-value 0 2	at
+T11	compare-value 3 8	least
+T12	quantity 9 10	2
+T13	color-value 11 15	blue
+T14	spatial-entity 16 23	squares
+T15	EC 28 36	touching
+E1	EC:T15 arg1:T20 arg2:T21 arg3:T22
+T17	spatial-entity 41 45	wall
+R1	color Arg1:T13 Arg2:T14	
+R2	count Arg1:T12 Arg2:T14	
+R3	compare Arg1:T11 Arg2:T14	
+R4	compare Arg1:T10 Arg2:T14	
+T18	Sp-rel 28 36	touching
+E2	Sp-rel:T18 arg1:T20 arg2:T21 arg3:T22
+T19	Topology 28 36	touching
+E3	Topology:T19 arg1:T20 arg2:T21 arg3:T22
+T20	indicator 28 36	touching
+T21	trajector 16 23	squares
+T22	landmark 41 45	wall

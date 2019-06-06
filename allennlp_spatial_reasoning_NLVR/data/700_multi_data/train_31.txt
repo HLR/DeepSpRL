@@ -1,0 +1,1 @@
+There is no blue block above a black block.

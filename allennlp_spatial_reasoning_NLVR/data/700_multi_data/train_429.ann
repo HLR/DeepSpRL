@@ -1,0 +1,31 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 13	only
+T4	EI 14 17	one
+T5	EI 18 23	black
+T6	EE 24 29	block
+T7	IN 30 32	on
+T8	EB 33 34	a
+T9	EI 35 40	black
+T10	EE 41 46	block
+T11	compare-value 9 13	only
+T12	quantity 14 17	one
+T13	color-value 18 23	black
+T14	spatial-entity 24 29	block
+T15	ABOVE 30 32	on
+E1	ABOVE:T15 arg1:T22 arg2:T21 arg3:T23
+T16	Distance 30 32	on
+E2	Distance:T16 arg1:T22 arg2:T21 arg3:T23
+T17	Sp-rel 30 32	on
+E3	Sp-rel:T17 arg1:T22 arg2:T21 arg3:T23
+T18	quantity 33 34	a
+T19	color-value 35 40	black
+T20	spatial-entity 41 46	block
+R1	compare Arg1:T11 Arg2:T14	
+R2	count Arg1:T12 Arg2:T14	
+R3	color Arg1:T13 Arg2:T14	
+T21	trajector 24 29	block
+T22	indicator 30 32	on
+R4	count Arg1:T18 Arg2:T20	
+R5	color Arg1:T19 Arg2:T20	
+T23	landmark 41 46	block

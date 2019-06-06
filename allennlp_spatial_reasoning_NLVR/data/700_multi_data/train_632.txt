@@ -1,0 +1,1 @@
+There is at least 1 triangle closely touching a corner.

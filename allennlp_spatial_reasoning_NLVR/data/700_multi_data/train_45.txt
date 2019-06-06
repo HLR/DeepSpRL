@@ -1,0 +1,1 @@
+There is 1 tower with at least 1 black block.

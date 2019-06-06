@@ -1,0 +1,22 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	quantity 20 23	two
+T7	EB 20 23	two
+T8	EE 24 31	squares
+T9	quantity 9 10	a
+T10	spatial-entity 11 14	box
+R1	count Arg1:T9 Arg2:T10	
+T11	trajector 11 14	box
+T12	spatial-entity 24 31	squares
+R2	count Arg1:T6 Arg2:T12	
+T13	PP 15 19	with
+E1	PP:T13 arg1:T16 arg2:T11 arg3:T17
+T14	Topology 15 19	with
+E2	Topology:T14 arg1:T16 arg2:T11 arg3:T17
+T15	Sp-rel 15 19	with
+E3	Sp-rel:T15 arg1:T16 arg2:T11 arg3:T17
+T16	indicator 15 19	with
+T17	landmark 24 31	squares

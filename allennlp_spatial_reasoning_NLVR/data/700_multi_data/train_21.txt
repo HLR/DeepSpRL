@@ -1,0 +1,1 @@
+There are at least three blue objects not touching the edge.

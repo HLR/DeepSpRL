@@ -1,0 +1,14 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 13	two
+T4	EI 14 18	blue
+T5	EI 19 24	items
+T6	EI 25 27	on
+T7	EE 28 31	top
+T8	quantity 10 13	two
+T9	color-value 14 18	blue
+T10	spatial-entity 19 24	items
+T11	spa-value 28 31	top
+R1	count Arg1:T8 Arg2:T10	
+R2	color Arg1:T9 Arg2:T10	
+R3	space Arg1:T11 Arg2:T10	

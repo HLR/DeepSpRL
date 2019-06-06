@@ -1,0 +1,31 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 16	black
+T5	EE 17 23	square
+T6	IN 24 32	attached
+T7	EO 33 35	to
+T8	EO 36 39	the
+T9	EB 40 45	right
+T10	EI 46 52	corner
+T11	EI 53 55	of
+T12	EI 56 59	the
+T13	EE 60 63	box
+T14	quantity 9 10	a
+T15	color-value 11 16	black
+T16	spatial-entity 17 23	square
+T17	DC 24 32	attached
+E1	DC:T17 arg1:T24 arg2:T23 arg3:T25
+T18	Topology 24 32	attached
+E2	Topology:T18 arg1:T24 arg2:T23 arg3:T25
+T19	Sp-rel 24 32	attached
+E3	Sp-rel:T19 arg1:T24 arg2:T23 arg3:T25
+T20	spa-value 40 45	right
+T21	spatial-entity 46 52	corner
+T22	spatial-entity 60 63	box
+R1	count Arg1:T14 Arg2:T16	
+R2	color Arg1:T15 Arg2:T16	
+T23	trajector 17 23	square
+T24	indicator 24 32	attached
+R3	space Arg1:T20 Arg2:T21	
+T25	landmark 46 52	corner

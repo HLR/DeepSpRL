@@ -1,0 +1,1 @@
+there are exactly two squares touching the edge.

@@ -1,0 +1,1 @@
+There is only 1 box with at least 1 yellow item.

@@ -1,0 +1,1 @@
+at least one tower with four blocks has a blue block at the base.

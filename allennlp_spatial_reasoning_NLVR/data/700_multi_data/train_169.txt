@@ -1,0 +1,1 @@
+There is a tower with only yellow blocks with less than four blocks.

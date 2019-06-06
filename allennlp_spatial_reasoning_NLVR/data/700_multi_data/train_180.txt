@@ -1,0 +1,1 @@
+There are exactly two towers with at least two blocks.

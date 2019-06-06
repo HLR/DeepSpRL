@@ -1,0 +1,1 @@
+there is at least  one tower of three blocks which has blocks of either yellow or blue color only.

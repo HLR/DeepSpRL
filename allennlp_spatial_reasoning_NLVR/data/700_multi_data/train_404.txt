@@ -1,0 +1,1 @@
+there are exactly two blue squares not touching the edge.

@@ -1,0 +1,1 @@
+There is at least one item closely touching bottom-right corner of a box.

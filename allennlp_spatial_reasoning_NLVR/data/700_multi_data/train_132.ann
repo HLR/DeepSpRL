@@ -1,0 +1,34 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	EB 20 21	2
+T7	EI 22 28	yellow
+T8	EI 29 32	and
+T9	EI 33 34	1
+T10	EI 35 40	black
+T11	EE 41 45	item
+T12	quantity 9 10	a
+T13	spatial-entity 11 14	box
+T14	PP 15 19	with
+E1	PP:T14 arg1:T22 arg2:T21 arg3:T23
+T15	quantity 20 21	2
+T16	color-value 22 28	yellow
+T17	logic-value 29 32	and
+T18	quantity 33 34	1
+T19	color-value 35 40	black
+T20	spatial-entity 41 45	item
+R1	count Arg1:T12 Arg2:T13	
+R2	color Arg1:T19 Arg2:T20	
+R3	count Arg1:T18 Arg2:T20	
+R4	logic Arg1:T17 Arg2:T20	
+R5	color Arg1:T16 Arg2:T20	
+R6	count Arg1:T15 Arg2:T20	
+T21	trajector 11 14	box
+T22	indicator 15 19	with
+T23	landmark 41 45	item
+T24	Topology 15 19	with
+E2	Topology:T24 arg1:T22 arg2:T21 arg3:T23
+T25	Sp-rel 15 19	with
+E3	Sp-rel:T25 arg1:T22 arg2:T21 arg3:T23

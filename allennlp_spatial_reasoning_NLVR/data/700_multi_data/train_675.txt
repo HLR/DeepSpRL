@@ -1,0 +1,1 @@
+Two towers have the same height and the same top color.

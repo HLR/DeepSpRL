@@ -1,0 +1,1 @@
+There is a box with exactly one yellow circle and exactly one black triangle.

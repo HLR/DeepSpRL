@@ -1,0 +1,1 @@
+there are exactly two yellow objects not touching any edge.

@@ -1,0 +1,27 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 13	only
+T4	EI 14 17	one
+T5	EE 18 23	color
+T6	IN 24 26	on
+T7	EO 27 30	the
+T8	EB 31 34	top
+T9	IN 35 37	in
+T10	EB 38 41	all
+T11	EI 42 43	3
+T12	EE 44 49	boxes
+T13	compare-value 9 13	only
+T14	quantity 14 17	one
+T15	color-value 18 23	color
+T16	ABOVE 24 26	on
+E1	ABOVE:T16 
+T17	spatial-entity 31 34	top
+T18	PP 35 37	in
+E2	PP:T18 
+T19	Topology 35 37	in
+E3	Topology:T19 
+T20	Sp-rel 35 37	in
+E4	Sp-rel:T20 
+T21	compare-value 38 41	all
+T22	quantity 42 43	3
+T23	spatial-entity 44 49	boxes

@@ -1,0 +1,1 @@
+There is a box with 4 items where yellow item is touching the wall.

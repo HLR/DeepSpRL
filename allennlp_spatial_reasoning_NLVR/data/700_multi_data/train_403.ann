@@ -1,0 +1,14 @@
+T1	EB 0 3	One
+T2	EI 4 6	of
+T3	EI 7 10	the
+T4	EI 11 16	three
+T5	EI 17 23	towers
+T6	EI 24 26	is
+T7	EE 27 31	blue
+T8	quantity 0 3	One
+T9	quantity 11 16	three
+T10	spatial-entity 17 23	towers
+T11	color-value 27 31	blue
+R1	count Arg1:T8 Arg2:T10	
+R2	count Arg1:T9 Arg2:T10	
+R3	color Arg1:T11 Arg2:T10	

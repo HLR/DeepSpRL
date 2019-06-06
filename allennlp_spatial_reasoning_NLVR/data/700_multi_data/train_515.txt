@@ -1,0 +1,1 @@
+There is 1 tower that contains at least 2 yellow blocks.

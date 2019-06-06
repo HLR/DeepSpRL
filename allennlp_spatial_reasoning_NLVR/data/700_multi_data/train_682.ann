@@ -1,0 +1,25 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 16	three
+T5	EI 17 23	blocks
+T7	EI 24 29	tower
+T6	EI 30 35	which
+T8	EI 36 39	the
+T9	EI 40 43	top
+T10	EI 44 47	and
+T11	EI 48 52	base
+T12	EI 53 55	is
+T13	EE 56 61	black
+T15	quantity 11 16	three
+T14	spatial-entity 17 23	blocks
+T16	spatial-entity 24 29	tower
+T17	spa-value 40 43	top
+T18	logic-value 44 47	and
+T19	spa-value 48 52	base
+T20	color-value 56 61	black
+R1	count Arg1:T15 Arg2:T14	
+R2	space Arg1:T17 Arg2:T16	
+R3	logic Arg1:T18 Arg2:T16	
+R4	space Arg1:T19 Arg2:T16	
+R5	color Arg1:T20 Arg2:T16	

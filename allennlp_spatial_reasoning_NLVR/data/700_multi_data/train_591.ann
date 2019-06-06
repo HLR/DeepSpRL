@@ -1,0 +1,32 @@
+T1	EO 0 3	The
+T2	EO 4 6	is
+T3	EB 7 9	no
+T4	EE 10 16	circle
+T5	EO 17 24	closely
+T6	IN 25 33	touching
+T7	EB 34 40	bottom
+T8	EI 41 46	right
+T9	EI 47 53	corner
+T10	EI 54 56	of
+T11	EI 57 58	a
+T12	EE 59 62	box
+T13	compare-value 7 9	no
+T14	spatial-entity 10 16	circle
+T15	EC 25 33	touching
+E1	EC:T15 arg1:T24 arg2:T23 arg3:T25
+T16	Topology 25 33	touching
+E2	Topology:T16 arg1:T24 arg2:T23 arg3:T25
+T17	Sp-rel 25 33	touching
+E3	Sp-rel:T17 arg1:T24 arg2:T23 arg3:T25
+T18	spa-value 34 40	bottom
+T19	spa-value 41 46	right
+T20	spatial-entity 47 53	corner
+T21	quantity 57 58	a
+T22	spatial-entity 59 62	box
+R1	compare Arg1:T13 Arg2:T14	
+T23	trajector 10 16	circle
+T24	indicator 25 33	touching
+R2	space Arg1:T18 Arg2:T20	
+R3	space Arg1:T19 Arg2:T20	
+T25	landmark 47 53	corner
+R4	count Arg1:T21 Arg2:T22	

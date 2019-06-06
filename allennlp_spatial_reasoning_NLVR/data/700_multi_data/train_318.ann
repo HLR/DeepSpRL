@@ -1,0 +1,23 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 13	two
+T4	EI 14 18	blue
+T5	EE 19 25	blocks
+T6	IN 26 34	attached
+T7	EO 35 39	with
+T8	EO 40 44	each
+T9	EO 45 50	other
+T10	quantity 10 13	two
+T11	color-value 14 18	blue
+T12	spatial-entity 19 25	blocks
+T13	EC 26 34	attached
+E1	EC:T13 arg1:T18 arg2:T16 arg3:T17
+T14	Topology 26 34	attached
+E2	Topology:T14 arg1:T18 arg2:T16 arg3:T17
+T15	Sp-rel 26 34	attached
+E3	Sp-rel:T15 arg1:T18 arg2:T16 arg3:T17
+R1	count Arg1:T10 Arg2:T12	
+R2	color Arg1:T11 Arg2:T12	
+T16	trajector 19 25	blocks
+T17	landmark 19 25	blocks
+T18	indicator 26 34	attached

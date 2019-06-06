@@ -1,0 +1,25 @@
+T1	EB 0 3	one
+T2	EI 4 6	of
+T3	EI 7 10	the
+T4	EI 11 15	grey
+T5	EE 16 22	square
+T6	IN 23 26	has
+T7	EB 27 32	three
+T8	EE 33 40	circles
+T9	quantity 0 3	one
+T10	color-value 11 15	grey
+T11	spatial-entity 16 22	square
+T12	PP 23 26	has
+E1	PP:T12 arg1:T18 arg2:T17 arg3:T19
+T13	Topology 23 26	has
+E2	Topology:T13 arg1:T18 arg2:T17 arg3:T19
+T14	Sp-rel 23 26	has
+E3	Sp-rel:T14 arg1:T18 arg2:T17 arg3:T19
+T15	quantity 27 32	three
+T16	spatial-entity 33 40	circles
+R1	count Arg1:T9 Arg2:T11	
+R2	color Arg1:T10 Arg2:T11	
+T17	trajector 16 22	square
+T18	indicator 23 26	has
+R3	count Arg1:T15 Arg2:T16	
+T19	landmark 33 40	circles

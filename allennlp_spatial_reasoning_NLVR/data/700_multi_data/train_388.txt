@@ -1,0 +1,1 @@
+Each grey box contains even count of objects.

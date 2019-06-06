@@ -1,0 +1,1 @@
+There is a box with exactly two black items and exactly one blue circle.

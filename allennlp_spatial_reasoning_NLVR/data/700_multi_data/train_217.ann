@@ -1,0 +1,30 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 11	no
+T4	EI 12 16	blue
+T5	EI 17 23	circle
+T6	EI 24 26	of
+T7	EI 27 33	medium
+T8	EE 34 38	size
+T9	IN 39 47	touching
+T10	EO 48 51	the
+T11	EE 52 56	wall
+T12	color-value 12 16	blue
+T13	spatial-entity 17 23	circle
+T14	size-value 27 33	medium
+T15	size-value 34 38	size
+T16	EC 39 47	touching
+E1	EC:T16 arg1:T22 arg2:T21 arg3:T23
+T17	Sp-rel 39 47	touching
+E2	Sp-rel:T17 arg1:T22 arg2:T21 arg3:T23
+T18	Topology 39 47	touching
+E3	Topology:T18 arg1:T22 arg2:T21 arg3:T23
+T20	spatial-entity 52 56	wall
+R1	color Arg1:T12 Arg2:T13	
+R2	size Arg1:T14 Arg2:T13	
+R3	size Arg1:T15 Arg2:T13	
+T21	trajector 17 23	circle
+T22	indicator 39 47	touching
+T23	landmark 52 56	wall
+T19	compare-value 9 11	no
+R4	compare Arg1:T19 Arg2:T13	

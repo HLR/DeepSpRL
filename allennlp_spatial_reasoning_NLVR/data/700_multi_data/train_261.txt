@@ -1,0 +1,1 @@
+There is exactly one black circle not touching the edge.

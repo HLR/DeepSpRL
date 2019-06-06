@@ -1,0 +1,1 @@
+at least 2 blue squares are touching the wall.

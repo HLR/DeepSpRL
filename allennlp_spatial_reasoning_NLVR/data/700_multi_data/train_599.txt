@@ -1,0 +1,1 @@
+There is a box with at least one blue circle and three triangles.

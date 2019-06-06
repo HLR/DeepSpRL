@@ -1,0 +1,10 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	1
+T4	EI 11 17	yellow
+T5	EE 18 23	block
+T6	quantity 9 10	1
+T7	color-value 11 17	yellow
+T8	spatial-entity 18 23	block
+R1	color Arg1:T7 Arg2:T8	
+R2	count Arg1:T6 Arg2:T8	

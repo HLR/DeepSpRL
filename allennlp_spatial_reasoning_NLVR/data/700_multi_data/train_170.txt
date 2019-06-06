@@ -1,0 +1,1 @@
+There is a box that has only two items that are not the same.

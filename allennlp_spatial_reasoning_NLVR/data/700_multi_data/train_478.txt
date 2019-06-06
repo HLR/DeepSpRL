@@ -1,0 +1,1 @@
+There is one blue triangle touching any edge.

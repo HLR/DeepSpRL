@@ -1,0 +1,1 @@
+There is exactly one black square not touching any edge.

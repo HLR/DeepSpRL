@@ -1,0 +1,33 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 17	exactly
+T4	EI 18 21	two
+T5	EI 22 27	black
+T6	EE 28 34	blocks
+T7	IN 35 37	as
+T8	EO 38 41	the
+T9	EB 42 46	base
+T10	EI 47 49	of
+T11	EI 50 51	a
+T12	EE 52 57	tower
+T13	compare-value 10 17	exactly
+T14	quantity 18 21	two
+T15	color-value 22 27	black
+T16	spatial-entity 28 34	blocks
+T17	PP 35 37	as
+E1	PP:T17 arg1:T24 arg2:T23 arg3:T25
+T18	Topology 35 37	as
+E2	Topology:T18 arg1:T24 arg2:T23 arg3:T25
+T19	Sp-rel 35 37	as
+E3	Sp-rel:T19 arg1:T24 arg2:T23 arg3:T25
+T20	spa-value 42 46	base
+T21	quantity 50 51	a
+T22	spatial-entity 52 57	tower
+R1	compare Arg1:T13 Arg2:T16	
+R2	count Arg1:T14 Arg2:T16	
+R3	color Arg1:T15 Arg2:T16	
+T23	trajector 28 34	blocks
+T24	indicator 35 37	as
+R5	count Arg1:T21 Arg2:T22	
+T25	landmark 52 57	tower
+R4	space Arg1:T20 Arg2:T16	

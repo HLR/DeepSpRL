@@ -1,0 +1,1 @@
+There is a box with 6 items of 2 different colors of which there are 2 yellow ones at most.

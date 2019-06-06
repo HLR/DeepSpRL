@@ -1,0 +1,30 @@
+T1	EO 0 5	there
+T2	EO 6 8	is
+T3	EB 9 16	exactly
+T4	EI 17 19	on
+T5	EI 20 25	black
+T6	EE 26 32	circle
+T7	EO 33 36	not
+T8	IN 37 45	touching
+T9	quantity 46 49	any
+T10	EE 50 54	edge
+T11	compare-value 9 16	exactly
+T12	quantity 17 19	on
+#1	AnnotatorNotes T12	This is misspelled
+T13	color-value 20 25	black
+T14	spatial-entity 26 32	circle
+T15	EC 37 45	touching
+E1	EC:T15 arg1:T20 arg2:T19 arg3:T21
+T16	Sp-rel 37 45	touching
+E2	Sp-rel:T16 arg1:T20 arg2:T19 arg3:T21
+T17	Topology 37 45	touching
+E3	Topology:T17 arg1:T20 arg2:T19 arg3:T21
+T18	spatial-entity 50 54	edge
+R1	compare Arg1:T11 Arg2:T14	
+R2	count Arg1:T12 Arg2:T14	
+R3	color Arg1:T13 Arg2:T14	
+T19	trajector 26 32	circle
+T20	indicator 37 45	touching
+T21	landmark 50 54	edge
+R4	count Arg1:T9 Arg2:T18	
+T22	EB 46 49	any

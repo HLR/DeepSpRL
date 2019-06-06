@@ -1,0 +1,600 @@
+There###EO is###EO closely###EO a###EB circle###EE touching###IN a###EB corner###EI of###EI a###EI box###EE
+There###EO are###EO 2###EB yellow###EI blocks###EE
+There###EO is###EO at###EB least###EI one###EI tower###EE with###IN exactly###EB two###EI blocks###EE
+There###EO is###EO one###EB tower###EE with###IN at###EB least###EI two###EI blue###EI blocks###EE
+There###EO is###EO a###EB box###EE that###EO has###IN only###EB five###EI items###EI of###EI the###EI items###EI is###EI blue###EI and###EI black###EE and###EI color###EI
+There###EO are###EO 2###EB boxes###EE with###IN 1###EB yellow###EI circle###EE
+There###EO is###EO grey###EB box###EE with###IN two###EB triangles###EE touching###IN the###EO base###E
+There###EO is###EO a###EB blue###EI the###EI base###EI of###EI block###EI as###EI a###EI tower###EE with###IN at###EB most###EI three###EI blocks###EE as###IN
+There###EO is###EO a###EB triangle###EE closely###EO touching###IN right###EB a###EI box###EE wall###EI of###EI
+There###EO are###EO 2###EB boxes###EE with###IN at###EB least###EI 2###EI black###EI items###EE
+There###EO is###EO a###EB box###EE with###IN only###EB one###EI black###EI item###EE
+There###EO is###EO a###EB square###EI and###EI a###EI circle###EE closely###EO touching###IN a###EB corner###EE
+There###EO is###EO a###EB blue###EI block###EE above###IN a###EB black###EI block###EE
+There###EO is###EO exactly###EB one###EI black###EI circle###EE not###EO touching###IN the###EO edge###E
+There###EO are###EO two###EB items###EE closely###EO touching###EE touching###IN the###EO bottom###EI of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN a###EB yellow###EI circle###EE and###EO two###EB black###EI items###EE
+There###EO is###EO a###EB black###EI circle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+Black###EB square###EE is###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB box###EE with###IN a###EB black###EI square###EE blue###EI circle###EE and###EO three###EB yellow###EI items###EE a###EB
+there###EO are###EO exactly###EB two###EI squares###EE touching###IN the###EO edge###E
+There###EO is###EO a###EB tower###EE with###IN exactly###EB three###EI blocks###EE with###IN a###EB blue###EI block###EE at###IN the###EO top###E
+there###EO is###EO exactly###EB one###EI tower###EE with###IN a###EB blue###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EB base###EI of###EI only###EI two###EI towers###EE
+There###EO is###EO a###EB box###EE with###IN exactly###EB two###EI black###EI items###EE and###EO exactly###EB one###EI blue###EI circle###EE
+There###EO is###EO 1###EB blue###EI circle###EE
+The###EO blue###EB item###EE is###EO touching###IN the###EO wall###E
+There###EO is###EO box###EE 1###EB with###IN 2###EB yellow###EI items###EE
+there###EO is###EO one###EB tower###EE with###EO has###IN of###EI color###EE a###EB single###EI block###EI black###EI
+There###EO are###EO yellow###EI squares###EE 2###EB
+There###EO is###EO at###EB least###EI 1###EI with###IN a###EB blue###EI block###EI at###EI the###EI top###EE tower###EE
+There###EO is###EO a###EB yellow###EI square###EE closely###EO touching###IN the###EO bottom###EI of###EI a###EI box###EE
+There###EO is###EO 1###EB black###EI square###EE
+There###EO is###EO a###EB tower###EE with###IN exactly###EB three###EI blocks###EE with###IN a###EB blue###EI block###EI at###IN the###EI top###EE
+There###EO are###EO two###EB boxes###EE with###IN yellow###EB circles###EE
+There###EO are###EO seven###EB blocks###EE
+There###EO is###EO only###EB 1###EI box###EE with###IN at###EB least###EI 1###EI yellow###EI item###EE
+There###EO is###EO a###EB black###EI square###EE closely###EO touching###IN a###EO corner###EI of###EI a###EI
+There###EO are###EO 2###EB black###EI circles###EE and###EO 1###EB black###EI triangle###EE
+There###EO is###EO a###EB box###EE with###IN 2###EB yellow###EI and###EI 1###EI black###EI item###EE
+with###IN three###EB blocks###EE has###IN a###EB blue###EI block###EE at###IN the###EO top###E the###EB tower###EE
+there###EO is###EO a###EB tower###EE with###IN a###EB yellow###EI block###EE over###IN a###EB blue###EI block###EE
+There###EO are###EO exactly###EB 2###EI boxes###EE with###IN yellow###EB items###EE
+There###EO is###EO a###EB box###EE that###EO has###IN six###EB items###EE
+there###EO is###EO exactly###EB one###EI black###EI circle###EE touching###IN edge###E the###EO
+There###EO is###EO a###EB box###EE with###IN of###EI only###EI blue###EI and###EI black###EI color###EE items###EB
+There###EO is###EO 1###EB black###EI square###EE
+There###EO is###EO a###EB yellow###EI block###EE above###IN a###EB black###EI block###EE
+There###EO is###EO a###EB black###EI block###EE on###IN a###EB blue###EI block###EE
+There###EO are###EO two###EB towers###EE with###IN the###EB same###EI base###EB color###EI that###EI is###EI not###EI blue###EE
+There###EO are###EO two###EB towers###EE with###IN blue###EB blocks###EE
+there###EO is###EO a###EB tower###EE with###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN a###EB blue###EI block###EE on###EO top###IN of###EO black###EB block###EE
+there###EO are###EO exactly###EB two###EI towers###EE with###IN a###EB black###EI block###EO at###IN the###EO base###E
+There###EO is###EO 1###EB tower###EE with###IN 2###EB yellow###EI blocks###EE
+There###EO is###EO 1###EB box###EE with###IN only###EB yellow###EI and###EI blue###EI items###EE in###IN it###E
+There###EO is###EO a###EB box###EE with###IN 2###EB blue###EI items###EE touching###IN each###EB other###EE
+There###EO are###EO 3###EB yellow###EI blocks###EE
+one###EB of###EI the###EI grey###EI square###EE contains###IN five###EI objects###EE exactly###EB
+There###EO is###EO a###EB blue###EI block###EE on###IN a###EB black###EI block###EE
+There###EO is###EO a###EB black###EI tower###EE
+There###EO are###EO exactly###EB as###IN the###EO top###EB of###EI a###EI tower###EE two###EI yellow###EI blocks###EE
+There###EO is###EO a###EB box###EE with###IN only###EO 2###EB items###EI of###EI different###EI color###EE
+There###EO is###EO a###EB blue###EI triangle###EE closely###EO touching###IN the###EO bottom###EI of###EI a###EI box###EE
+ll###EB the###EI towers###EE have###IN at###EB least###EI one###EI block###EI that###EI is###EI the###EI same###EI in###EI color###EE
+There###EO is###EO 1###EB yellow###EI block###EE
+there###EO is###EO a###EB yellow###EI triangle###EE touching###IN the###EO edge###E there###EO
+There###EO is###EO least###EI one###EB black###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE at###EB
+at###EB least###EI one###EI grey###EI box###EE exactly###EB two###EI objects###EE contains###IN
+There###EO is###EO a###EB blue###EI block###EE as###EO the###EO top###IN of###EO a###EB tower###EE with###IN four###EB blocks###EE
+at###EB least###EI 2###EI blue###EI squares###EE are###EO touching###IN the###EO wall###E
+There###EO is###EO a###EB box###EE with###IN exactly###EB two###EI blue###EI triangles###EE and###EO a###EB black###EI circle###EE
+There###EO is###EO box###EE a###EB with###IN blue###EB and###EI yellow###EI items###EI and###EI the###EO yellow###EB one###EE on###IN top###E
+There###EO is###EO 1###EB yellow###EI circle###EE
+There###EO are###EO at###EB least###EI 4###EI black###EI blocks###EE
+There###EO is###EO a###EB box###EE with###IN a###EB black###EI square###EE touching###IN the###EO wall###EB and###EO another###EB one###EI on###EI top###EI
+There###EO is###EO at###EB least###EI 1###EI box###EE with###IN 2###EB black###EI items###EE
+there###EO are###EO three###EB black###EI circles###EE not###EO touching###IN any###EB edge###EE
+ll###EO the###EB towers###EE have###IN at###EB least###EI 1###EI yellow###EI block###EE
+There###EO is###EO a###EB tower###EE with###IN only###EB yellow###EI blocks###EE with###IN less###EB than###EI four###EI blocks###EE
+blue###EB circle###EE touching###IN is###EO the###EO wall###EE
+There###EO is###EO a###EB box###EE that###EO has###IN only###EB two###EI items###EI that###EI are###EI not###EI the###EI same###EE
+There###EO is###EO a###EB big###EI blue###EI square###EE touching###IN the###EO wall###E
+There###EO is###EO a###EB box###EE with###IN only###EB black###EI and###EI blue###EI items###EE
+There###EO is###EO 1###EB box###EE with###IN 2###EB items###EE
+There###EO is###EO 1###EB box###EE with###IN 3###EB blue###EI items###EE
+There###EO is###EO exactly###EB one###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO a###EB black###EI item###EE closely###EO touching###IN a###EB box###EI corner###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB black###EI block###EI at###EI the###EI bottom###EE
+There###EO are###EO 2###EB black###EI squares###EE
+There###EO is###EO a###EB box###EE with###IN 2###EB blue###EI 2###EI black###EI and###EI 2###EI yellow###EI items###EE
+The###EO first###EB two###EI blocks###EE from###IN the###EO base###EB of###EI a###EI tower###EI are###EI black###EE
+There###EO are###EO exactly###EB two###EI towers###EE with###IN at###EB least###EI two###EI blocks###EE
+There###EO is###EO a###EB box###EE with###IN one###EB black###EI item###EE
+There###EO are###EO two###EB yellow###EI blocks###EE as###IN the###EB base###EI of###EI a###EI tower###EE
+There###EO is###EO 1###EB black###EI square###EE
+there###EO are###EO exactly###EB two###EI yellow###EI objects###EE not###EO touching###IN any###EB edge###EE
+There###EO is###EO a###EB box###EE with###IN 3###EB items###EI of###EI which###EI one###EI is###EI blue###EI
+There###EO are###EO at###EB least###EI 2###EI towers###EE with###IN 1###EB black###EI block###EE
+There###EO are###EO exactly###EB two###EI yellow###EI circles###EE the###EO base###E
+there###EO is###EO a###EB blue###EI triangle###EI not###EO touching###IN any###EB edge###EE
+There###EO is###EO exactly###EB one###EI yellow###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB tower###EE with###IN two###EB yellow###EI blocks###EE
+There###EO are###EO 2###EB towers###EE with###IN a###EB yellow###EI block###EO at###IN the###EO base###E
+There###EO are###EO two###EB boxes###EE that###EO has###IN the###EO same###EB number###EI objects###EE of###EI
+There###EO is###EO a###EB box###EE with###IN yellow###EI 2###EB and###EI 1###EI black###EI item###EE
+There###EO is###EO a###EB four###EI blocks###EI tower###EI which###EI the###EI base###EI and###EI top###EI are###EI
+There###EO are###EO exactly###EB two###EI triangles###EE the###EO edge###E
+There###EO is###EO 1###EB tower###EE with###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+There###EO s###EO a###EB box###EE with###IN 1###EB black###EI items###EE and###EO 3###EB items###EI of###EI one###EI another###EI color###EE
+There###EO are###EO two###EB boxes###EI with###IN items###EB of###EI all###EI three###EI colors###EE
+There###EO is###EO a###EB black###EI item###EE closely###EO touching###IN the###EO roof###EB of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN exactly###EB 3###EI blue###EI items###EE and###EO at###EB least###EI 2###EI yellow###EI items###EE
+There###EO is###EO a###EB box###EE without###IN a###EB blue###EI item###EE
+There###EO is###EO a###EB yellow###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN exactly###EB three###EI blocks###EE
+There###EO is###EO a###EB tower###EE which###EO has###IN two###EB black###EI blocks###EE
+there###EO are###EO exactly###EB three###EI circles###EE not###EO touching###IN any###EB edge###EE
+there###EO are###EO exactly###EB two###EI objects###EE touching###IN the###EO base###E
+There###EO is###EO a###EB black###EI object###EE touching###IN the###EO base###E
+There###EO is###EO a###EB square###EE closely###EO touching###IN a###EB corner###EE
+There###EO is###EO a###EB box###EE with###IN only###EB 2###EI items###EI of###EI different###EI color###EI
+There###EO is###EO a###EB box###EI with###IN a###EB yellow###EI triangle###EE and###EO two###EB black###EI items###EE
+There###EO is###EO no###EB black###EI circle###EE closely###EO touching###IN right###EB wall###EI of###EI a###EB box###EE
+One###EB of###EI the###EI grey###EI box###EE contains###IN exactly###EB four###EI objects###EE
+There###EO are###EO at###EB least###EI three###EI blue###EI objects###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO a###EB yellow###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB tower###EE with###IN two###EB blocks###EI where###EI the###EI base###EI is###EI blue###EI and###EI the###EI top###EI is###EI yellow###EE
+There###EO is###EO 1###EB yellow###EI block###EE
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN exactly###EB two###EI blocks###EE with###IN a###EB blue###EI block###EE at###IN the###EO top###E
+There###EO is###EO a###EB box###EE with###IN 2###EB yellow###EI items###EE at###EO most###EO and###EO no###EO other###EO color###EO
+There###EO are###EO 6###EB items###EE touching###IN the###EO wall###E
+There###EO is###EO no###EB blue###EI circle###EI of###EI medium###EI size###EE touching###IN the###EO wall###EE
+There###EO are###EO 2###EB yellow###EI circles###EE in###IN one###EB box###EE
+the###EB tower###EE with###IN three###EB blocks###EE has###IN a###EB blue###EI block###EE at###IN the###EI top###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB yellow###EI block###EI at###EI the###EI base###EE
+There###EO is###EO a###EB box###EE with###IN two###EB triangles###EI of###EI the###EI same###EI size###EI not###EO touching###IN the###EO wall###E
+There###EO is###EO a###EB tower###EE with###IN exactly###EB two###EI yellow###EI blocks###EE
+There###EO is###EO a###EB yellow###EI circle###EE closely###EO touching###IN a###EB corner###EE
+there###EO is###EO one###EB tower###EE with###IN two###EB blocks###EI where###EI at###EI least###EI one###EI block###EI is###EI yellow###EE
+there###EO are###EO exactly###EB two###EI towers###EE with###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+there###EO is###EO a###EB tower###EE with###IN a###EB blue###EI block###EE at###IN the###EI top###EE and###EO at###IN the###EI base###EE
+There###EO are###EO exactly###EB two###EI black###EI blocks###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO at###EB least###EI 1###EI tower###EE with###IN a###EB blue###EI block###EE at###IN the###EO top###E
+There###EO is###EO 1###EB yellow###EI triangle###EE
+there###EO is###EO one###EB tower###EE which###EO has###IN a###EB black###EI block###EE over###IN a###EB black###EI block###EE
+There###EO are###EO 2###EB boxes###EE that###EO have###IN at###EB least###EI 1###EB yellow###EI item###EE
+there###EO is###EO exactly###EB on###EI black###EI circle###EE not###EO touching###IN edge###EE any###EB
+The###EB second###EI block###EE from###IN base###EB of###EI a###EI tower###EE is###EO blue###EO the###EO
+There###EO is###EO a###EB box###EE which###EO has###IN four###EB squares###EE
+tleast###EB one###EI of###EI the###EI square###EI box###EE contains###IN odd###EB number###EI of###EI objects###EE
+There###EO are###EO 2###EB yellow###EI blocks###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI circle###EE and###EO a###EB black###EI square###EE
+There###EO is###EO a###EB yellow###EI block###EE as###IN the###EO base###EB of###EI at###EI least###EI two###EI towers###EE
+One###EB tower###EE has###IN exactly###EB 1###EI black###EI block###EE and###EO 1###EB yellow###EI block###EE
+There###EO are###EO exactly###EB 2###EI blue###EI items###EE
+one###EB of###EI the###EI grey###EI box###EE contains###IN exactly###EB one###EI object###EE
+There###EO is###EO 1###EB box###EE with###IN items###EB of###EI all###EI three###EI colours###EE
+There###EO is###EO a###EB box###EE with###IN only###EB one###EI item###EI that###EI is###EI not###EI a###EI blue###EI triangle###EI or###EI a###EI blue###EI square###EE
+There###EO is###EO at###EB least###EI one###EI e###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO are###EO two###EB black###EI blocks###EE as###IN the###EO top###EB of###EI a###EI tower###EE
+There###EO is###EO 1###EB box###EE with###IN three###EB items###EI of###EI the###EI same###EI colour###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO base###EI of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO a###EB black###EI block###EE a###EB yellow###EI block###EE underneath###IN
+There###EO are###EO two###EB blue###EI items###EI on###EI top###EE
+There###EO is###EO 1###EB yellow###EI circle###EE
+the###EO tower###E with###IN four###EB blocks###EE has###IN a###EB blue###EI block###EE at###IN the###EI base###EE
+There###EO is###EO a###EB grey###EI box###EE with###IN exactly###EB five###EI objects###EE
+There###EO are###EO at###EB least###EI two###EI towers###EE with###IN exactly###EB three###EI blocks###EE
+there###EO is###EO one###EB tower###EE with###IN a###EB black###EI block###EI at###EI the###EI base###EE
+There###EO is###EO a###EB box###EE with###IN only###EB one###EI item###EE
+there###EO is###EO at###EB least###EI one###EI black###EI circle###EE touching###IN the###EO edge###E
+There###EO is###EO a###EB tower###EE with###IN only###EB blue###EI and###EI yellow###EI blocks###EE
+there###EO is###EO exactly###EB one###EI yellow###EI object###EE touching###IN the###EO edge###E
+There###EO is###EO a###EB black###EI block###EE two###EB yellow###EI blocks###EE
+There###EO is###EO only###EB one###EI blue###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE
+there###EO is###EO at###EB least###EI one###EI black###EI circle###EE touching###IN the###EO bottom###EB edge###EE
+There###EO are###EO two###EB blue###EI blocks###EE as###IN the###EO top###EB of###EI a###EI tower###EE
+There###EO are###EO exactly###EB two###EI black###EI objects###EE touching###IN the###EO edge###E
+There###EO is###EO at###EB least###EI one###EI blue###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO exactly###EB one###EI black###EI circle###EE not###EO touching###IN the###EO edge###E
+at###EB least###EI one###EI tower###EE with###IN four###EB blocks###EE has###IN a###EB blue###EI block###EE at###IN the###EO base###E
+there###EO is###EO a###EB tower###EE with###IN exactly###EB two###EI blocks###EE
+There###EO is###EO box###E with###IN items###EB of###EI different###EI colors###EE and###EO two###EB black###EI items###EI at###EI most###EE
+There###EO are###EO exactly###EB two###EI yellow###EI blocks###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB yellow###EI circle###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+there###EO are###EO two###EB towers###EE with###IN the###EO same###EB number###EI of###EI blocks###EE
+There###EO are###EO 2###EB boxes###EE with###IN at###EB least###EI 1###EI black###EI item###EE
+There###EO is###EO no###EB blue###EI tower###EE with###IN only###EB one###EI block###EE
+There###EO is###EO at###EB least###EI 1###EI tower###EE with###IN 1###EB black###EI block###EE at###IN the###EO top###E
+there###EO is###EO a###EB grey###EI box###EE with###IN exactly###EB six###EI objects###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI triangle###EE a###EB black###EI triangle###EE and###EO at###EB least###EI one###EI yellow###EI circle###EE
+there###EO are###EO exactly###EB two###EI towers###EE with###IN a###EB blue###EI block###EE at###IN the###EO base###E
+there###EO is###EO at###EB least###EI one###EI black###EI circle###EE touching###IN the###EO edge###E
+There###EO is###EO a###EB box###EE with###IN only###EB 2###EI yellow###EI items###EE and###EO at###EB least###EI one###EI black###EI item###EE
+there###EO is###EO one###EB tower###EE with###IN a###EB black###EI block###EE over###IN a###EB blue###EI block###EE
+There###EO are###EO 2###EB black###EI squares###EE
+There###EO are###EO two###EB black###EI blocks###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+one###EB of###EI the###EI grey###EI box###EE contains###IN exactly###EB six###EI objects###EE
+There###EO is###EO a###EB box###EE with###IN only###EB yellow###EI items###EE
+There###EO is###EO a###EB black###EI tower###EE
+There###EO is###EO a###EB black###EI tower###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB yellow###EI block###EE at###IN the###EO top###E
+There###EO is###EO a###EB box###EE with###IN 2###EB triangles###EI of###EI same###EI color###EE nearly###EO touching###IN each###EO other###EO
+one###EB of###EI the###EI grey###EI box###EE contains###IN exactly###EB two###EI yellow###EI squares###EE
+there###EO are###EO exactly###EB two###EI blue###EI squares###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB box###EE with###IN five###EB items###EE
+There###EO is###EO a###EB black###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+at###EB least###EI 1###EI tower###EE has###IN a###EB yellow###EI block###EI at###EI its###EI base###EE
+There###EO opis###EO one###EB tower###EE with###IN at###EB least###EI two###EI blue###EI blocks###EE in###IN it###E
+There###EO are###EO two###EB boxes###EE that###EO has###IN the###EO same###EB number###EI of###EI objects###EE
+There###EO is###EO no###EB black###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO are###EO at###EB least###EI two###EI towers###EE with###IN the###EO same###EI color###EE
+There###EO is###EO exactly###EB one###EI triangle###EE touching###IN the###EO base###E
+There###EO is###EO a###EB yellow###EI block###EE bellow###IN a###EB blue###EI block###EE
+There###EO is###EO 1###EB box###EE with###IN 1###EB blue###EI circle###EE
+There###EO is###EO 1###EB tower###EE with###IN only###EB 1###EI black###EI block###EE and###EO 1###EB yellow###EI block###EE
+there###EO is###EO a###EB black###EI circle###EE touching###IN the###EO edge###E
+there###EO is###EO exactly###EB one###EI tower###EE with###IN a###EB blue###EI block###EE at###IN the###EO base###E
+There###EO are###EO exactly###EB two###EI yellow###EI circles###EE touching###IN any###EB edge###EE
+one###EB of###EI the###EI grey###EI square###EE contains###IN exactly###EB two###EI objects###EE
+ll###EB of###EI the###EI boxes###EE has###IN a###EB yellow###EI item###EE touching###IN the###EO line###EB of###EI the###EI box###EE
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN exactly###EB three###EI blocks###EE
+There###EO are###EO 2###EB black###EI blocks###EE
+There###EO are###EO 3###EB yellow###EI blocks###EE
+There###EO is###EO no###EB box###EE with###IN a###EB black###EI item###EE and###EO two###EB yellow###EI items###EE
+There###EO is###EO at###EB least###EI 1###EI tower###EE with###IN a###EB blue###EI block###EE the###EO bottom###E at###IN
+There###EO is###EO exactly###EB one###EI blue###EI item###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN 2###EB items###EI the###EO and###EO black###EB item###EE is###EO touching###IN the###EO wall###E
+there###EO is###EO exactly###EB one###EI black###EI object###EE touching###IN the###EO edge###E
+There###EO is###EO a###EB yellow###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN four###EB blocks###EI
+There###EO is###EO a###EB box###EE with###IN two###EB items###EE
+There###EO is###EO a###EB box###EE with###IN exactly###EB four###EI items###EE including###IN black###EB triangle###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB blue###EI block###EE at###IN the###EO base###E
+There###EO is###EO no###EB blue###EI block###EE above###IN a###EB black###EI block###EE
+There###EO is###EO a###EB tower###EE with###IN four###EB blocks###EI and###EI the###EI three###EI are###EI the###EI same###EE
+there###EO is###EO one###EB tower###EE with###IN a###EB yellow###EI block###EE above###IN a###EB black###EI block###EE
+There###EO are###EO 2###EB black###EI triangles###EE in###IN the###EO same###EB box###EE
+one###EB of###EI the###EI grey###EI square###EE has###IN exactly###EB two###EI objects###EE
+there###EO is###EO a###EB tower###EE with###IN four###EB blocks###EE having###IN a###EB black###EI block###EE above###IN a###EB black###EI block###EE
+There###EO is###EO a###EB tower###EE with###IN only###EB blue###EI and###EI black###EI blocks###EE
+There###EO is###EO a###EB box###EE with###IN exactly###EB one###EI yellow###EI circle###EE and###EO exactly###EB one###EI black###EI triangle###EE
+There###EO is###EO exactly###EB one###EI blue###EI object###EE touching###IN the###EO edge###E
+There###EO are###EO two###EB blue###EI blocks###EE attached###IN with###EO each###EO other###EO
+the###EO tower###E having###IN more###EB than###EI one###EI block###EE has###IN a###EB black###EI block###EE at###IN the###EO top###E
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN three###EB blocks###EE
+There###EO is###EO a###EB tower###EE which###EO has###IN only###EB one###EI block###EE
+Black###EB square###EE is###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB tower###EE with###IN only###EB one###EI blue###EI block###EE
+There###EO are###EO 2###EB boxes###EE that###EO have###IN at###EB least###EI 1###EI yellow###EI item###EE
+There###EO is###EO a###EB box###EE with###IN items###EB of###EI all###EI 3###EI different###EI colors###EE and###EO exactly###EB 2###EI blue###EI items###EE
+There###EO is###EO 1###EB tower###EE with###IN 2###EB blue###EI blocks###EE
+There###EO is###EO no###EB black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB box###EE with###IN 3###EB items###EI of###EI which###EI 2###EI are###EI black###EE
+There###EO is###EO a###EB black###EI item###EE touching###IN the###EO side###E
+There###EO is###EO exactly###EB one###EI black###EI circle###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB box###EE with###IN exactly###EB three###EI black###EI items###EE
+there###EO are###EO exactly###EB three###EI objects###EE in###IN one###EB grey###EI box###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI square###EE and###EO a###EB yellow###EI square###EE
+There###EO is###EO bo###EB black###EI block###EE on###IN a###EB black###EI block###EE
+There###EO is###EO a###EB blue###EI triangle###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+There###EO are###EO 2###EB towers###EE with###IN a###EB blue###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE with###IN a###EB yellow###EI triangle###EE touching###IN the###EO wall###EB with###IN its###EB top###EE
+There###EO are###EO two###EB towers###EE with###IN four###EB blocks###EE
+There###EO is###EO a###EB yellow###EI block###EE bellow###IN a###EB black###EI block###EE
+There###EO is###EO a###EB four###EI tower###EI block###EE
+the###EO tower###E with###IN three###EB blocks###EE has###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+there###EO is###EO one###EB tower###EE with###IN exactly###EB one###EI object###EI which###EI is###EI blue###EE
+None###EB of###EI the###EI blue###EI objects###EE are###EO touching###IN any###EB edge###EE
+There###EO is###EO at###EB least###EI one###EI box###EE with###IN exactly###EB four###EI items###EI including###EI blue###EI one###EE
+There###EO is###EO a###EB box###EE with###IN a###EB yellow###EI item###EE touching###IN the###EO wall###EB and###EI at###EI least###EI 2###EI blue###EI on###EI top###EI of###EI it###EE
+There###EO is###EO a###EB black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO a###EB black###EI circle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB yellow###EI item###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+There###EO is###EO a###EB square###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+One###EB of###EI the###EI grey###EI box###EE contains###IN exactly###EB one###EI object###EE which###EO is###IN a###EB black###EI circle###EE
+there###EO are###EO exactly###EB three###EI black###EI objects###EE not###EO touching###IN the###EO any###EB edge###EE
+There###EO is###EO a###EB black###EI block###EE attached###IN to###EO a###EB blue###EI block###EE
+There###EO are###EO at###EB least###EI two###EI black###EI blocks###EE above###IN a###EB blue###EI block###EE
+there###EO is###EO a###EB tower###EI with###IN a###EB black###EI block###EE above###IN a###EB yellow###EI block###EE
+There###EO is###EO a###EB black###EI tower###EE
+There###EO is###EO 1###EB tower###EE with###IN 2###EB black###EI blocks###EI stacked###IN together###E
+There###EO is###EO 1###EB box###EE with###IN exactly###EB 1###EI yellow###EI item###EE and###EO 1###EB blue###EI item###EE
+The###EO tower###E with###IN four###EB blocks###EE has###IN a###EB black###EI block###EE at###IN the###EO top###E
+There###EO is###EO a###EB blue###EI item###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+Two###EB of###EI the###EI three###EI towers###EE has###IN the###EO same###EB base###EI color###EI that###EI is###EI not###EI black###EE
+One###EB tower###EE has###IN only###EB blue###EI and###EI black###EI blocks###EE
+There###EO is###EO exactly###EB one###EI black###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB box###EE with###IN two###EB items###EE
+There###EO is###EO 1###EB box###EE wih###IN exactly###EB 1###EI circle###EE in###IN it###E There###E
+There###EO is###EO 1###EB yellow###EI square###EE
+There###EO is###EO a###EB tower###EI that###EI the###EI third###EI block###EE from###IN the###EO base###EB is###EI black###EE
+There###EO are###EO 2###EB black###EI blocks###EE
+there###EO is###EO exactly###EB one###EI blue###EI square###EE touching###IN the###EO base###E
+There###EO is###EO exactly###EB one###EI yellow###EI square###EO closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN only###EB yellow###EI items###EE
+There###EO is###EO exactly###EB one###EI black###EI square###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB blue###EI circle###EE the###EO bottom###EB of###EI a###EI box###EE closely###EO touching###IN
+There###EO is###EO no###EB black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB tower###EE with###IN two###EB black###EI blocks###EE and###EO exactly###EB one###EI yellow###EI block###EE
+There###EO is###EO a###EB black###EI block###EE bellow###IN a###EB yellow###EI block###EE
+There###EO is###EO a###EB blue###EI block###EE on###IN a###EB blue###EI block###EE
+There###EO is###EO a###EB tower###EE with###IN only###EB one###EI block###EE
+There###EO is###EO a###EB tower###EI that###EI the###EI base###EI and###EI second###EI block###EI are###EI the###EI same###EI in###EI color###EE
+There###EO are###EO 2###EB towers###EE with###IN a###EB blue###EI block###EE at###IN the###EO top###E
+There###EO is###EO 1###EB black###EI triangle###EE
+There###EO is###EO a###EB box###EE with###IN 3###EB items###EI of###EI only###EI black###EI and###EI yellow###EI color###EE
+There###EO is###EO a###EB tower###EE with###IN four###EB blocks###EE having###IN a###EB black###EI block###EE at###IN the###EO top###E
+There###EO is###EO a###EB box###EE with###IN only###EB one###EI square###EE
+ll###EB black###EI squares###EE are###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN exactly###EB two###EI blocks###EE
+There###EO are###EO 2###EB black###EI circles###EE
+One###EB of###EI the###EI grey###EI box###EE has###IN exactly###EB three###EI objects###EE one###EO of###EO which###EO is###EO blue###EO square###EO
+there###EO are###EO exactly###EB two###EI towers###EE with###IN three###EB blocks###EE
+There###EO is###EO a###EB yellow###EI item###EE touching###IN the###EO corner###E
+tower###E with###IN four###EB blocks###EE has###IN blocks###EB of###EI all###EI the###EI three###EI colors###EE
+There###EO is###EO a###EB tower###EE which###EO has###IN only###EB one###EI color###EE
+there###EO are###EO two###EB towers###EE with###IN a###EB black###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB black###EI triangle###EE closely###EO touching###IN the###EO of###EI bottom###EI a###EI box###EE
+Each###EB grey###EI box###EE contains###IN even###EB count###EI of###EI objects###EE
+There###EO are###EO 2###EB boxes###EE with###IN at###EB least###EI 2###EI black###EI items###EE
+There###EO are###EO 2###EB towers###EE with###IN a###EB black###EI block###EE at###IN the###EO base###E
+There###EO are###EO 2###EB boxes###EE i###IN at###EB least###EI 1###EI yellow###EI circle###EE
+There###EO is###EO as###EB box###EE with###IN only###EB one###EI item###EO
+There###EO is###EO a###EB box###EE with###IN a###EB yellow###EI square###EE and###EO at###EB least###EI one###EI yellow###EI circles###EE
+There###EO is###EO a###EB black###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO 1###EB triangle###EE closely###EO touching###IN a###EB corner###EE
+There###EO is###EO a###EB box###EE with###IN a###EB black###EI circle###EE and###EO at###EB least###EI one###EI black###EI square###EE
+There###EO is###EO 1###EB blue###EI circle###EE
+There###EO is###EO at###EB least###EI 1###EI box###EE with###IN 2###EB black###EI circles###EE
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN exactly###EB one###EI block###EE which###EO is###EO of###EO black###EO color###EO
+There###EO is###EO a###EB blue###EI block###EE above###IN a###EB yellow###EI block###EE
+There###EO is###EO 1###EB box###EE with###IN 5###EB yellow###EI items###EE
+There###EO is###EO a###EB box###EE with###IN two###EB squares###EE
+at###EB least###EI one###EI grey###EI square###EE has###IN exactly###EB seven###EI objects###EE
+There###EO is###EO a###EB yellow###EI block###EE above###IN the###EO blue###EB block###EE
+There###EO is###EO a###EB box###EE with###IN only###EB blue###EI and###EI black###EI items###EE
+One###EB of###EI the###EI three###EI towers###EI is###EI blue###EE
+there###EO are###EO exactly###EB two###EI blue###EI squares###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB box###EE with###IN two###EB black###EI circles###EE
+One###EB of###EI the###EI grey###EI square###EE contains###IN exactly###EB two###EI objects###EE
+There###EO is###EO a###EB blue###EI triangle###EE touching###IN the###EO side###E
+There###EO is###EO at###EB least###EI one###EI yellow###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+None###EB of###EI the###EI blue###EI objects###EE are###EO touching###IN any###EB edge###EE
+There###EO is###EO a###EB box###EE which###EO has###IN six###EB items###EE
+There###EO are###EO 2###EB yellow###EI items###EE
+There###EO is###EO a###EB blue###EI tower###EE with###IN only###EB one###EI block###EE
+There###EO is###EO a###EB box###EE with###IN 4###EB items###EI where###EI yellow###EI item###EE is###EO touching###IN the###EO wall###E
+There###EO is###EO a###EB box###EE with###IN only###EB 2###EI items###EE
+There###EO is###EO a###EB blue###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO are###EO 2###EB boxes###EE with###IN at###EB least###EI 1###EI black###EI square###EE
+There###EO is###EO a###EB box###EE with###IN three###EB black###EI items###EI and###EI a###EI yellow###EI item###EE
+There###EO is###EO a###EB box###EE which###EO has###IN only###EB two###EI items###EI and###EI they###EI are###EI both###EI circles###EE
+There###EO is###EO a###EB box###EE that###EO has###IN only###EB one###EI block###EE which###EO is###EO not###EO blue###EO
+There###EO is###EO a###EB black###EI triangle###EE touching###IN the###EO side###E
+There###EO is###EO a###EB box###EE with###IN 2###EB items###EE
+There###EO is###EO 1###EB blue###EI square###EE
+there###EO is###EO exactly###EB one###EI tower###EE with###IN two###EB blocks###EE and###EO with###IN a###EB black###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE with###IN multiple###EB objects###EE which###EO has###IN only###EB one###EI black###EI object###EI that###EI is###EI circle###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB black###EI block###EE at###IN the###EO base###E
+There###EO is###EO 1###EB tower###EE with###IN 2###EB blue###EI blocks###EE
+There###EO is###EO a###EB box###EE with###IN at###EB least###EI two###EI items###EE and###EO a###EB black###EI item###EE on###IN top###EE
+There###EO are###EO 3###EB black###EI blocks###EE
+There###EO are###EO two###EB boxes###EE which###EO has###IN the###EO same###EB number###EI of###EI objects###EI and###EI three###EI kinds###EI of###EI colors###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN exactly###EB three###EI blocks###EE
+There###EO is###EO only###EB one###EI black###EI block###EE on###IN a###EB black###EI block###EE
+there###EO is###EO a###EB tower###EE with###IN a###EB blue###EI block###EI at###EI the###EI top###EE and###EO a###EB black###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE where###IN a###EB black###EI and###EI yellow###EI square###EE are###EO touching###IN each###EB other###EE
+There###EO is###EO a###EB tower###EE with###IN exactly###EB two###EI black###EI blocks###EE
+There###EO is###EO a###EB tower###EE with###IN four###EB blocks###EE
+There###EO is###EO at###EB least###EI 1###EI tower###EE with###IN a###EB blue###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB tower###EE with###IN a###EB blue###EI block###EE a###EB yellow###EI and###EO two###EB black###EI blocks###EE block###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE with###IN a###EB black###EI triangle###EE and###EO a###EB black###EI square###EE
+There###EO is###EO 1###EB box###EE with###IN only###EB black###EI and###EI yellow###EI items###EE
+One###EB of###EI the###EI grey###EI box###EE has###IN objects###EB of###EI only###EI one###EI color###EE
+There###EO are###EO two###EB yellow###EI items###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+There###EO are###EO 2###EB towers###EE with###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE with###IN exactly###EB 3###EI black###EI items###EE
+There###EO is###EO one###EB tower###EE with###IN 1###EB yellow###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE with###IN only###EB yellow###EI items###EE
+There###EO is###EO 1###EB box###EE with###IN only###EB 1###EI black###EI circle###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN at###EB most###EI two###EI blocks###EE
+There###EO is###EO 1###EB tower###EE where###IN the###EO top###EB and###EI the###EI bottom###EI blocks###EI are###EI the###EI same###EI colour###EE
+there###EO is###EO exactly###EB one###EI yellow###EI triangle###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO no###EB black###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO 1###EB box###EE with###IN 2###EB blue###EI circles###EE
+There###EO is###EO a###EB yellow###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO 1###EB tower###EE with###IN at###EB least###EI 1###EI black###EI block###EE
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN exactly###EB three###EI blocks###EE
+There###EO is###EO a###EB triangle###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+There###EO are###EO exactly###EB two###EI black###EI blocks###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO exactly###EB one###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+there###EO are###EO exactly###EB three###EI black###EI squares###EE not###EO touching###IN any###EB edge###EE
+There###EO is###EO 1###EB tower###EE with###IN 1###EB blue###EI block###EE and###EO 1###EB yellow###EI block###EE and###EO 1###EB black###EI block###EE
+yellow###EB square###EE is###EO not###EO touching###IN the###EO wall###E
+There###EO is###EO a###EB circle###EE closely###EO touching###IN a###EB corner###EE
+There###EO is###EO a###EB circle###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+there###EO are###EO exactly###EB two###EI black###EI objects###EE touching###IN any###EB edge###EE
+There###EO are###EO 3###EB yellow###EI squares###EE
+there###EO is###EO a###EB tower###EE with###IN a###EB blue###EI block###EE above###IN a###EB yellow###EI block###EE
+there###EO is###EO at###EB least###EI one###EI black###EI circle###EE touching###IN the###EO bottom###EB edge###EE
+There###EO is###EO 1###EB box###EE with###IN exactly###EB 1###EI item###EE in###IN it###E
+There###EO is###EO a###EB yellow###EI item###EO closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+there###EO is###EO one###EB tower###EE with###IN a###EB yellow###EI block###EE over###IN a###EB blue###EI block###EE
+There###EO is###EO a###EB box###EE with###IN at###EB least###EI 2###EI blue###EI items###EE and###EO one###EB black###EI item###EE
+There###EO is###EO a###EB box###EE with###IN three###EB black###EI items###EE
+The###EO blue###EB item###EE is###EO not###EO touching###IN the###EO wall###E
+There###EO is###EO a###EB two###EI blocks###EI tower###EI and###EI only###EI one###EI color###EE
+There###EO are###EO 2###EB towers###EE with###IN a###EB black###EI block###EE at###IN the###EO top###E
+There###EO is###EO only###EB 1###EI box###EE with###IN 2###EB blue###EI items###EE
+There###EO is###EO a###EB tower###EE with###IN only###EB one###EI block###EE
+There###EO is###EO a###EB blue###EI triangle###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+There###EO is###EO exactly###EB one###EI black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO at###EB least###EI one###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO 1###EB tower###EE with###IN at###EB least###EI 1###EI black###EI block###EE
+The###EO grey###EB box###EE containing###IN least###EB number###EI of###EI objects###EI are###EI blue###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI square###EE and###EO a###EB black###EI circle###EE
+There###EO is###EO at###EB least###EI one###EI blue###EI block###EE on###IN a###EB black###EI block###EE
+There###EO is###EO one###EB blue###EI triangle###EE touching###IN any###EB edge###EE
+There###EO is###EO a###EB blue###EI block###EE above###IN a###EB yellow###EI block###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI triangle###EE a###EB black###EI triangle###EE and###EO at###EB least###EI one###EI yellow###EI circle###EE
+There###EO is###EO at###EB least###EI one###EI yellow###EI block###EE above###IN of###EO a###EB black###EI block###EE
+There###EO is###EO 1###EB box###EE with###IN only###EB 1###EI black###EI circle###EE
+at###EB least###EI one###EI grey###EI box###EE contains###IN exactly###EB four###EI objects###EE
+There###EO is###EO a###EB blue###EI triangle###EE touching###IN the###EO wall###E with###IN its###EB side###EE
+There###EO is###EO a###EB box###EE with###IN items###EB of###EI only###EI 2###EI different###EI colors###EE
+There###EO is###EO no###EB blue###EI square###EE closely###EO touching###IN a###EB corner###EI of###EI a###EI box###EE
+There###EO are###EO 3###EB yellow###EI blocks###EE
+There###EO is###EO a###EB black###EI square###EE touching###IN the###EO corner###E
+there###EO is###EO a###EB yellow###EI circle###EE touching###IN an###EB edge###EE
+There###EO is###EO no###EB tower###EE with###IN three###EB black###EI blocks###EE
+There###EO is###EO no###EB black###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB black###EI square###EE attached###IN to###EO the###EO right###EB corner###EI of###EI the###EI box###EE
+there###EO is###EO a###EB tower###EE with###IN exactly###EB one###EI block###EE which###EO is###EO of###EO black###EO color###EO
+There###EO is###EO 1###EB box###EE with###IN a###EB black###EI triangle###EE and###EO black###EB circle###EE in###IN it###E
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN two###EB blocks###EE
+There###EO is###EO 1###EB tower###EE with###IN at###EB least###EI 3###EI blue###EI blocks###EE
+There###EO is###EO one###EB tower###EE with###IN exactly###EB two###EI blocks###EE
+There###EO is###EO a###EB blue###EI item###EE closely###EO touching###IN a###EB corner###EE
+There###EO is###EO a###EB box###EE with###EO only###EB 1###EI item###EE
+There###EO is###EO a###EB black###EI square###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO are###EO at###EB least###EI 2###EI towers###EE with###IN at###EB least###EI 1###EI blue###EI block###EE
+There###EO is###EO a###EB box###EE with###IN 3###EB blue###EI 2###EI black###EI and###EI 1###EI yellow###EI item###EE
+The###EO first###EB three###EI color###EI of###EI a###EI tower###EE from###IN the###EO base###EB are###EI yellow###EI yellow###EI and###EI black###EE
+There###EO is###EO a###EB black###EI item###EE in###IN every###EB box###EE
+There###EO is###EO 1###EB box###EE with###IN only###EB 1###EI black###EI circle###EE
+There###EO is###EO a###EB box###EE with###IN 3###EB items###EI of###EI all###EI 3###EI different###EI colors###EE
+There###EO are###EO two###EB towers###EI with###IN the###EO same###EB base###EI color###EI that###EI is###EI not###EI yellow###EE
+There###EO is###EO 1###EB box###EE with###IN exactly###EB 1###EI block###EE
+Two###EB blue###EI squares###EE are###EO touching###IN the###EO wall###E
+There###EO is###EO at###EB least###EI one###EI blue###EI block###EE on###IN a###EB blue###EI block###EE
+There###EO is###EO a###EB tower###EE with###IN only###EB one###EI block###EE
+There###EO is###EO a###EB black###EI triangle###EE closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+There###EO is###EO exactly###EB one###EI blue###EI item###EO closely###EO touching###IN right###EB wall###EI of###EI a###EI box###EE
+the###EO tower###E having###IN more###EB than###EI one###EI block###EE has###IN a###EB black###EI block###EE at###IN the###EO top###E
+There###EO are###EO two###EB yellow###EI blocks###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO are###EO 2###EB blue###EI blocks###EE
+there###EO are###EO at###EB least###EI three###EI squares###EE not###EO touching###IN any###EB edge###EE
+there###EO is###EO a###EB tower###EE with###IN exactly###EB three###EI blocks###EE
+There###EO are###EO two###EB towers###EE with###IN a###EB yellow###EI block###EE at###IN the###EO top###E
+There###EO is###EO 1###EB tower###EE that###EO contains###IN at###EB least###EI 2###EI yellow###EI blocks###EE
+There###EO is###EO a###EB black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN two###EB blocks###EE
+There###EO is###EO only###EB 1###EI box###EE with###IN 2###EB blue###EI items###EE
+There###EO is###EO a###EB blue###EI circle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO only###EB one###EI color###EE on###IN the###EO top###EB in###IN all###EB 3###EI boxes###EE
+there###EO is###EO at###EB least###EI one###EI blue###EI triangle###EE touching###IN the###EO bottom###EB base###EE
+There###EO are###EO at###EB least###EI 2###EI towers###EE with###IN yellow###EB blocks###EE at###IN the###EO base###E
+There###EO is###EO 1###EB box###EE with###IN 4###EB black###EI items###EE
+There###EO is###EO a###EB tower###EE with###IN exactly###EB two###EI blocks###EE having###IN a###EB yellow###EI block###EE above###IN a###EB blue###EI block###EE
+There###EO is###EO a###EB box###EE with###IN only###EB blue###EI and###EI black###EI items###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI circle###EE a###EB black###EI circle###EE and###EO a###EB black###EI square###EE
+There###EO is###EO a###EB box###EE with###IN exactly###EB four###EI items###EE including###IN black###EB triangle###EE
+There###EO is###EO as###EB box###EE that###EO has###IN no###EB color###EI yellow###EE
+there###EO is###EO exactly###EB one###EI tower###EE with###IN a###EB blue###EI block###EE over###IN a###EB yellow###EI block###EE
+there###EO is###EO a###EB blue###EI circle###EE touching###IN the###EO base###E
+There###EO is###EO a###EB box###EE with###IN only###EB one###EI blue###EI item###EE and###EO at###EB least###EI 3###EI items###EI of###EI another###EI color###EE
+There###EO is###EO 1###EB black###EI triangle###EE
+There###EO is###EO no###EB black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN exactly###EB three###EI blocks###EE
+There###EO is###EO no###EB black###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN 4###EB items###EE and###EO a###EB blue###EI item###EI beneath###IN the###EO item###E on###IN top###EE
+There###EO is###EO a###EB box###EE with###IN a###EB yellow###EI circle###EE and###EO a###EB black###EI circle###EE
+There###EO is###EO one###EB tower###EE with###IN a###EB black###EI block###EE at###IN base###E
+There###EO is###EO a###EB box###EE with###IN three###EB black###EI items###EE and###EO a###EB blue###EI item###EE on###IN top###E
+There###EO is###EO a###EB black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB black###EI block###EE at###IN the###EO base###E
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN two###EB blocks###EE
+Each###EB box###EE has###IN at###EB least###EI 1###EI black###EI item###EE
+There###EO are###EO 2###EB black###EI circles###EE
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN exactly###EB three###EI blocks###EE
+there###EO is###EO one###EB tower###EE with###IN blocks###EB of###EI yellow###EI and###EI blue###EI color###EE
+there###EO is###EO grey###EI a###EB box###EE with###IN exactly###EB six###EI objects###EE
+There###EO is###EO at###EB least###EI one###EI item###EE closely###EO touching###IN bottom###EB right###EI corner###EI of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN 6###EB items###EI of###EI 2###EI different###EI colors###EI of###EI which###EI there###EI are###EI 2###EI yellow###EI ones###EI at###EI most###EE
+tower###E with###IN three###EB objects###EE has###IN a###EB black###EI block###EE
+there###EO are###EO at###EB least###EI two###EI black###EI objetcs###EE touching###IN the###EO edge###E
+Each###EB box###EE has###IN at###EB least###EI 1###EI yellow###EI item###EE in###IN it###E
+There###EO are###EO 2###EB boxes###EE with###IN many###EB items###EE
+There###EO is###EO a###EB tower###EE that###EO has###IN two###EB black###EI blocks###EE
+there###EO is###EO exactly###EB one###EI yellow###EI square###EE touching###IN the###EO edge###E
+There###EO are###EO 3###EB black###EI blocks###EE
+There###EO is###EO a###EB yellow###EI block###EE on###IN a###EB black###EI block###EE
+There###EO is###EO a###EB box###EE with###IN only###EB three###EI items###EE
+There###EO is###EO at###EB most###EI one###EI yellow###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+there###EO are###EO two###EB grey###EI squares###EE with###IN one###EB black###EI object###EE touching###IN the###EO bottom###EB base###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI item###EE touching###IN the###EO wall###EB and###EO a###EB black###EI one###EI right###EO on###IN top###EB of###EI it###EE
+There###EO is###EO at###EB least###EI one###EI yellow###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE
+There###EO is###EO exactly###EB one###EI tower###EE with###IN four###EB blocks###EE
+There###EO are###EO 2###EB towers###EE with###IN a###EB blue###EI block###EE at###IN the###EO base###E
+There###EO is###EO one###EB box###EE with###IN many###EB items###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI triangle###EE and###EO at###EB least###EI one###EI black###EI circle###EE
+one###EB of###EI the###EI grey###EI square###EE contains###IN exactly###EB two###EI objects###EE
+ll###EB of###EI the###EI boxes###EE has###IN a###EB yellow###EI item###EE touching###IN the###EO line###EB of###EI the###EI box###EE
+There###EO is###EO a###EB tower###EE with###IN only###EB blue###EI and###EI black###EI blocks###EE
+There###EO is###EO a###EB circle###EE closely###EO touching###IN the###EI bottom###EI of###EI a###EI box###EE
+There###EO are###EO 4###EB yellow###EI items###EE
+There###EO is###EO a###EB box###EE which###EO has###IN only###EB three###EI items###EE
+there###EO is###EO exactly###EB one###EI black###EI object###EE touching###IN the###EO base###E
+There###EO are###EO 2###EB yellow###EI blocks###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+there###EO is###EO a###EB black###EI square###EE touching###IN the###EO base###E
+There###EO is###EO 1###EB box###EE with###IN a###EB black###EI square###EE and###EO a###EB black###EI triangle###EE
+There###EO is###EO a###EB yellow###EI block###EE as###IN the###EO base###EB of###EI at###EI least###EI two###EI towers###EE
+one###EB of###EI the###EI grey###EI square###EE has###IN exactly###EB four###EI objects###EE
+there###EO is###EO at###EB least###EI one###EI tower###EE with###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE with###IN two###EB squares###EE
+There###EO is###EO at###EB least###EI one###EI yellow###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO is###EO a###EB tower###EE that###EO has###IN two###EB blue###EI blocks###EE attached###IN with###EO each###EO other###EO
+one###EB of###EI the###EI grey###EI square###EE has###IN exactly###EB two###EI objects###EE
+black###EB triangle###EE is###EO touching###IN the###EO wall###E
+There###EO are###EO 5###EB blue###EI items###EE
+one###EB of###EI the###EI tower###EE has###IN a###EB black###EI block###EE over###IN a###EB yellow###EI block###EE
+There###EO is###EO 1###EB box###EE with###IN exactly###EB 1###EI black###EI item###EE
+there###EO is###EO at###EB least###EI one###EI tower###EE of###IN three###EB blocks###EE which###EO has###IN blocks###EB of###EI either###EI yellow###EI or###EI blue###EI color###EI only###EE
+There###EO is###EO a###EB yellow###EI block###EE on###IN a###EB yellow###EI block###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI triangle###EE a###EB black###EI triangle###EE and###EO at###EB least###EI one###EI yellow###EI circle###EE
+there###EO are###EO two###EB towers###EE with###IN a###EB black###EI block###EE at###IN the###EO top###E
+There###EO is###EO a###EB square###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN exactly###EB three###EI items###EE
+There###EO is###EO a###EB box###EE with###IN exactly###EB three###EI items###EE
+one###EB of###EI the###EI grey###EI square###EE has###IN three###EB circles###EE
+There###EO are###EO at###EB least###EI 3###EI yellow###EI items###EE
+There###EO is###EO a###EB box###EE 3###EB items###EI and###EO a###EB black###EI one###EE on###IN top###E with###IN
+There###EO are###EO 3###EB circles###EE
+The###EO is###EO no###EB circle###EE closely###EO touching###IN bottom###EB right###EI corner###EI of###EI a###EI box###EE
+There###EO is###EO 1###EB tower###EE with###IN a###EB yellow###EI block###EE at###IN the###EO base###E
+There###EO is###EO a###EB box###EE which###EO has###IN only###EB two###EI items###EI and###EI the###EI color###EI are###EI the###EI same###EE
+There###EO are###EO 2###EB boxes###EE with###IN 2###EB items###EI of###EI 2###EI different###EI colors###EE
+There###EO is###EO a###EB box###EE with###IN only###EB one###EI item###EI that###EI is###EI not###EI black###EE
+there###EO are###EO exactly###EB two###EI yellow###EI objects###EE not###EO touching###IN any###EB edge###EE
+one###EB of###EI the###EI grey###EI square###EE has###IN three###EB circles###EE
+There###EO is###EO at###EB least###EI one###EI black###EI item###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN at###EB least###EI one###EI blue###EI circle###EE and###EO three###EB triangles###EE
+There###EO is###EO a###EB box###EE with###IN only###EB one###EI square###EE and###EO it###E is###EO touching###IN the###EO wall###E
+there###EO are###EO exactly###EB two###EI squares###EE touching###IN the###EO edge###E
+There###EO is###EO no###EB black###EI block###EE on###IN a###EB black###EI block###EE
+There###EO are###EO 2###EB yellow###EI blocks###EE
+There###EO are###EO 2###EB yellow###EI blocks###EE
+There###EO is###EO 1###EB box###EE with###IN only###EB 2###EI items###EI of###EI the###EI same###EI colour###EE
+There###EO is###EO 1###EB tower###EE wirh###IN a###EB blue###EI block###EE at###IN the###EO top###E
+There###EO are###EO 2###EB towers###EE that###EO contain###IN at###EB least###EI 1###EI yellow###EI block###EE
+There###EO is###EO one###EB tower###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO a###EB black###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB tower###EE with###IN two###EB blue###EI blocks###EE above###IN the###EO base###EB of###EI a###EI tower###EE
+There###EO are###EO 2###EB yellow###EI blocks###EE
+There###EO is###EO a###EB black###EI block###EE as###IN the###EO base###EB of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO are###EO at###EB least###EI 2###EI towers###EE with###IN yellow###EB blocks###EI at###EI the###EI base###EE
+there###EO is###EO a###EB yellow###EI triangle###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB tower###EE with###IN only###EB one###EI block###EE
+There###EO is###EO a###EB yellow###EI triangle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE with###IN a###EB blue###EI square###EE and###EO at###EB least###EI two###EI black###EI items###EE including###IN circle###E
+There###EO are###EO two###EB yellow###EI blocks###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN at###EB least###EI two###EI blocks###EE
+there###EO are###EO two###EB yellow###EI circles###EE not###EO touching###IN the###EO edge###E
+There###EO is###EO a###EB box###EE with###IN 3###EB items###EE and###EO a###EB blue###EI item###EE on###IN top###E
+There###EO is###EO no###EB item###EE closely###EO touching###IN a###EB wall###EI of###EI a###EI box###EE
+There###EO are###EO three###EB items###EE touching###IN the###EO side###E
+There###EO is###EO a###EB black###EI circle###EE closely###EO touching###IN a###EB corner###EI of###EI a###EI box###EE
+There###EO is###EO a###EB box###EE which###EO has###IN a###EB blue###EI square###EE a###EB yellow###EI square###EE and###EO two###EB black###EI items###EE
+One###EB of###EI the###EI grey###EI box###EE has###IN more###EB than###EI one###EI
+There###EO is###EO 1###EB box###EE with###IN 2###EB yellow###EI items###EE in###IN it###E
+Of###EO the###EO three###EB towers###EE one###EO has###IN only###EB black###EI base###EE
+There###EO is###EO a###EB box###EE with###IN 3###EB items###EE with###IN only###EB yellow###EI and###EI blue###EI color###EE
+There###EO is###EO a###EB box###EE with###IN a###EB yellow###EI circle###EE and###EO at###EB least###EI one###EI blue###EI triangle###EE
+There###EO is###EO a###EB yellow###EI block###EE bellow###IN a###EB blue###EI block###EE
+There###EO are###EO 2###EB boxes###EE that###EO have###IN at###EB least###EI 1###EI black###EI circle###EE
+there###EO is###EO a###EB tower###EE with###IN a###EB black###EI block###EE above###IN a###EB yellow###EI block###EE
+there###EO is###EO one###EB tower###EE with###IN exactly###EB two###EI blocks###EE
+There###EO is###EO a###EB tower###EE which###EO has###IN two###EB black###EI blocks###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN four###EB blocks###EE
+There###EO is###EO at###EB least###EI 1###EI triangle###EE closely###EO touching###IN a###EB corner###EE
+Two###EB of###EI the###EI three###EI towers###EE has###IN a###EB blue###EI base###EE
+There###EO is###EO a###EB yellow###EI circle###EE closely###EO touching###IN the###EO bottom###EB of###EI a###EI box###EE
+there###EO is###EO exactly###EB one###EI tower###EE with###IN a###EB black###EI block###EE at###IN the###EO base###E
+There###EO is###EO 1###EB yellow###EI item###EE in###IN each###EB box###EE
+The###EO middle###EB of###EI a###EI three###EI blocks###EI tower###EI is###EI black###EE
+There###EO is###EO a###EB blue###EI block###EE as###IN the###EO top###EB of###EI a###EI tower###EE with###IN at###EB most###EI three###EI blocks###EE
+The###EO first###EB two###EI blocks###EE
+there###EO is###EO exactly###EB one###EI yellow###EI square###EE touching###IN the###EO edge###E

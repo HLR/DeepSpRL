@@ -1,0 +1,1 @@
+There is a box with exactly 3 blue items and at least 2 yellow items.

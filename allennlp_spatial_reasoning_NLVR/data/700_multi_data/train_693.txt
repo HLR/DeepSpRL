@@ -1,0 +1,1 @@
+There are exactly two squares closely touching the bottom of a box.

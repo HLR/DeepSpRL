@@ -1,0 +1,21 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 11	2
+T4	EI 12 18	yellow
+T5	EE 19 24	items
+T6	IN 25 27	on
+T7	E 28 31	top
+T8	quantity 10 11	2
+T9	color-value 12 18	yellow
+T10	spatial-entity 19 24	items
+R1	count Arg1:T8 Arg2:T10	
+R2	color Arg1:T9 Arg2:T10	
+T11	spatial-entity 28 31	top
+T12	ABOVE 25 27	on
+E1	ABOVE:T12 arg1:T16 arg2:T15
+T13	Distance 25 27	on
+E2	Distance:T13 arg1:T16 arg2:T15
+T14	Sp-rel 25 27	on
+E3	Sp-rel:T14 arg1:T16 arg2:T15
+T15	trajector 19 24	items
+T16	indicator 25 27	on

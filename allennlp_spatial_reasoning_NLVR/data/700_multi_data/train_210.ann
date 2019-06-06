@@ -1,0 +1,45 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 15	blue
+T5	EE 16 21	block
+T6	IN 22 24	as
+T7	EO 25 28	the
+T8	EB 29 33	base
+T9	EI 34 36	of
+T10	EI 37 38	a
+T11	EE 39 44	tower
+T12	IN 45 49	with
+T13	EB 50 54	four
+T14	EE 55 61	blocks
+T15	quantity 9 10	a
+T16	color-value 11 15	blue
+T17	spatial-entity 16 21	block
+T18	spa-value 29 33	base
+T19	quantity 37 38	a
+T20	spatial-entity 39 44	tower
+T21	indicator 45 49	with
+T22	quantity 50 54	four
+T23	spatial-entity 55 61	blocks
+R1	count Arg1:T15 Arg2:T17	
+R2	color Arg1:T16 Arg2:T17	
+T24	indicator 22 24	as
+T25	Sp-rel 22 24	as
+E1	Sp-rel:T25 arg1:T24 arg3:T32
+T26	Topology 22 24	as
+E2	Topology:T26 arg1:T24 arg3:T32
+T27	PP 22 24	as
+E3	PP:T27 arg1:T24 arg3:T32
+T28	Topology 45 49	with
+E4	Topology:T28 arg1:T21 arg2:T33 arg3:T34
+T29	Sp-rel 45 49	with
+E5	Sp-rel:T29 arg1:T21 arg2:T33 arg3:T34
+T30	PP 45 49	with
+E6	PP:T30 arg1:T21 arg2:T33 arg3:T34
+T31	trajector 16 21	block
+T32	landmark 39 44	tower
+T33	trajector 39 44	tower
+T34	landmark 55 61	blocks
+R4	count Arg1:T19 Arg2:T20	
+R5	count Arg1:T22 Arg2:T23	
+R3	space Arg1:T18 Arg2:T17	

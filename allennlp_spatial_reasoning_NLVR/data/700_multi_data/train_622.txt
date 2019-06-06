@@ -1,0 +1,1 @@
+One of the grey box has more than one object which are all of same type.

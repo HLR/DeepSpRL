@@ -1,0 +1,28 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 16	black
+T5	EE 17 22	block
+T6	BELOW 23 33	underneath
+E1	BELOW:T6 arg1:T20 arg2:T19 arg3:T21
+T7	Direction 23 33	underneath
+E2	Direction:T7 arg1:T20 arg2:T19 arg3:T21
+T8	Sp-rel 23 33	underneath
+E3	Sp-rel:T8 arg1:T20 arg2:T19 arg3:T21
+T9	EB 34 35	a
+T10	EI 36 42	yellow
+T11	EE 43 48	block
+T12	quantity 9 10	a
+T13	color-value 11 16	black
+T14	spatial-entity 17 22	block
+T15	IN 23 33	underneath
+T16	quantity 34 35	a
+T17	color-value 36 42	yellow
+T18	spatial-entity 43 48	block
+T19	trajector 17 22	block
+T20	indicator 23 33	underneath
+T21	landmark 43 48	block
+R1	count Arg1:T12 Arg2:T14	
+R2	color Arg1:T13 Arg2:T14	
+R3	count Arg1:T16 Arg2:T18	
+R4	color Arg1:T17 Arg2:T18	

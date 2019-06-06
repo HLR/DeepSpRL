@@ -1,0 +1,25 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 15	blue
+T5	EE 16 22	circle
+T6	EO 23 26	and
+T7	EB 27 29	at
+T8	EI 30 35	least
+T9	EI 36 39	one
+T10	EI 40 45	black
+T11	EE 46 50	item
+T12	quantity 9 10	a
+T13	color-value 11 15	blue
+T14	spatial-entity 16 22	circle
+R1	count Arg1:T12 Arg2:T14	
+R2	color Arg1:T13 Arg2:T14	
+T15	compare-value 27 29	at
+T16	compare-value 30 35	least
+T17	quantity 36 39	one
+T18	color-value 40 45	black
+T19	spatial-entity 46 50	item
+R3	compare Arg1:T15 Arg2:T19	
+R4	compare Arg1:T16 Arg2:T19	
+R5	count Arg1:T17 Arg2:T19	
+R6	color Arg1:T18 Arg2:T19	

@@ -1,0 +1,1 @@
+There is at least one blue block on a black block.

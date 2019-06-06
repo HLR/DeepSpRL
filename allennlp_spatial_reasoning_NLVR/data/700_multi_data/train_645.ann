@@ -1,0 +1,28 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 11	no
+T4	EE 12 18	square
+T5	EO 19 26	closely
+T6	IN 27 35	touching
+T7	EO 36 39	the
+T8	EB 40 46	bottom
+T9	EI 47 49	of
+T10	EI 50 51	a
+T11	EE 52 55	box
+T12	logic-value 9 11	no
+T13	spatial-entity 12 18	square
+R1	logic Arg1:T12 Arg2:T13	
+T14	EC 27 35	touching
+E1	EC:T14 arg1:T21 arg2:T20 arg3:T22
+T15	Topology 27 35	touching
+E2	Topology:T15 arg1:T21 arg2:T20 arg3:T22
+T16	Sp-rel 27 35	touching
+E3	Sp-rel:T16 arg1:T21 arg2:T20 arg3:T22
+T17	spa-value 40 46	bottom
+T18	quantity 50 51	a
+T19	spatial-entity 52 55	box
+R2	count Arg1:T18 Arg2:T19	
+R3	space Arg1:T17 Arg2:T19	
+T20	trajector 12 18	square
+T21	indicator 27 35	touching
+T22	landmark 52 55	box

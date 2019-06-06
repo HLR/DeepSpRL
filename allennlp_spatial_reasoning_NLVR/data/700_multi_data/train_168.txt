@@ -1,0 +1,1 @@
+ll the towers have at least 1 yellow block.

@@ -1,0 +1,10 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 11	4
+T4	EI 12 18	yellow
+T5	spatial-entity 19 24	items
+T6	EE 19 24	items
+T7	quantity 10 11	4
+T8	color-value 12 18	yellow
+R1	count Arg1:T7 Arg2:T5	
+R2	color Arg1:T8 Arg2:T5	

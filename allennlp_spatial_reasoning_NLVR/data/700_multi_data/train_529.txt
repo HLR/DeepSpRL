@@ -1,0 +1,1 @@
+There is a box with only one blue item and at least 3 items of another color.

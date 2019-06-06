@@ -1,0 +1,19 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 11	2
+T4	EI 12 17	black
+T5	EE 18 25	circles
+T6	EO 26 29	and
+T7	EB 30 31	1
+T8	EI 32 37	black
+T9	EE 38 46	triangle
+T10	quantity 10 11	2
+T11	color-value 12 17	black
+T12	spatial-entity 18 25	circles
+T13	quantity 30 31	1
+T14	color-value 32 37	black
+T15	spatial-entity 38 46	triangle
+R1	count Arg1:T10 Arg2:T12	
+R2	color Arg1:T11 Arg2:T12	
+R3	count Arg1:T13 Arg2:T15	
+R4	color Arg1:T14 Arg2:T15	

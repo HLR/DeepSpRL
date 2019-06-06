@@ -1,0 +1,1 @@
+there is exactly one yellow square touching the edge.

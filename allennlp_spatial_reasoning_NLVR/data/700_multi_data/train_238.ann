@@ -1,0 +1,37 @@
+T1	EB 0 3	One
+T2	EE 4 9	tower
+T3	IN 10 13	has
+T4	EB 14 21	exactly
+T5	EI 22 23	1
+T6	EI 24 29	black
+T7	EE 30 35	block
+T8	EO 36 39	and
+T9	EB 40 41	1
+T10	EI 42 48	yellow
+T11	EE 49 54	block
+T12	quantity 0 3	One
+T13	spatial-entity 4 9	tower
+T14	PP 10 13	has
+E1	PP:T14 arg1:T25 arg2:T24 arg3:T26 arg3:T27
+T15	Sp-rel 10 13	has
+E2	Sp-rel:T15 arg1:T25 arg2:T24 arg3:T26 arg3:T27
+T16	Topology 10 13	has
+E3	Topology:T16 arg1:T25 arg2:T24 arg3:T26 arg3:T27
+T17	compare-value 14 21	exactly
+T18	quantity 22 23	1
+T19	color-value 24 29	black
+T20	spatial-entity 30 35	block
+T21	quantity 40 41	1
+T22	color-value 42 48	yellow
+T23	spatial-entity 49 54	block
+R1	count Arg1:T12 Arg2:T13	
+R2	compare Arg1:T17 Arg2:T20	
+R3	count Arg1:T18 Arg2:T20	
+R4	color Arg1:T19 Arg2:T20	
+R5	compare Arg1:T17 Arg2:T23	
+R6	count Arg1:T21 Arg2:T23	
+R7	color Arg1:T22 Arg2:T23	
+T24	trajector 4 9	tower
+T25	indicator 10 13	has
+T26	landmark 30 35	block
+T27	landmark 49 54	block

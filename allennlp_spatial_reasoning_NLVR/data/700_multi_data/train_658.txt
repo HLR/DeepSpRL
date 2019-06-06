@@ -1,0 +1,1 @@
+There is a box with 4 items of which 3 are circles and 1 is a triangle.

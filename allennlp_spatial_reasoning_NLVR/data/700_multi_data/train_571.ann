@@ -1,0 +1,28 @@
+T1	EB 0 3	one
+T2	EI 4 6	of
+T3	EI 7 10	the
+T4	EI 11 15	grey
+T5	EE 16 22	square
+T6	IN 23 26	has
+T7	EB 27 34	exactly
+T8	EI 35 39	four
+T9	EE 40 47	objects
+T10	quantity 0 3	one
+T11	color-value 11 15	grey
+T12	spatial-entity 16 22	square
+T13	PP 23 26	has
+E1	PP:T13 arg1:T21 arg2:T17 arg3:T20
+T14	compare-value 27 34	exactly
+T15	quantity 35 39	four
+T16	spatial-entity 40 47	objects
+R1	count Arg1:T10 Arg2:T12	
+R2	color Arg1:T11 Arg2:T12	
+T17	trajector 16 22	square
+T18	Topology 23 26	has
+E2	Topology:T18 arg1:T21 arg2:T17 arg3:T20
+T19	Sp-rel 23 26	has
+E3	Sp-rel:T19 arg1:T21 arg2:T17 arg3:T20
+R3	compare Arg1:T14 Arg2:T16	
+R4	count Arg1:T15 Arg2:T16	
+T20	landmark 40 47	objects
+T21	indicator 23 26	has

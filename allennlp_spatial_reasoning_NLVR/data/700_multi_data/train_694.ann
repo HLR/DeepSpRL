@@ -1,0 +1,23 @@
+T1	EO 0 5	there
+T2	EO 6 8	is
+T3	EB 9 12	one
+T4	EI 13 17	blue
+T5	EE 18 24	circle
+T6	IN 25 33	touching
+T7	EO 34 37	the
+T8	E 38 42	base
+T9	quantity 9 12	one
+T10	color-value 13 17	blue
+T11	spatial-entity 18 24	circle
+R1	count Arg1:T9 Arg2:T11	
+R2	color Arg1:T10 Arg2:T11	
+T12	EC 25 33	touching
+E1	EC:T12 arg1:T17 arg2:T16 arg3:T18
+T13	Topology 25 33	touching
+E2	Topology:T13 arg1:T17 arg2:T16 arg3:T18
+T14	Sp-rel 25 33	touching
+E3	Sp-rel:T14 arg1:T17 arg2:T16 arg3:T18
+T15	spa-value 38 42	base
+T16	trajector 18 24	circle
+T17	indicator 25 33	touching
+T18	landmark 38 42	base

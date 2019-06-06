@@ -1,0 +1,1 @@
+There are 2 boxes with at least 1 black item.

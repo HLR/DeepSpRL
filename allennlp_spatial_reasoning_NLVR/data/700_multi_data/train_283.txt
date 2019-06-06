@@ -1,0 +1,1 @@
+one of the grey box contains exactly two yellow squares.

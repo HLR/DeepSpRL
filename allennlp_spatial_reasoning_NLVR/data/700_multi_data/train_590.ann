@@ -1,0 +1,7 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 11	3
+T4	EE 12 19	circles
+T5	quantity 10 11	3
+T6	spatial-entity 12 19	circles
+R1	count Arg1:T5 Arg2:T6	

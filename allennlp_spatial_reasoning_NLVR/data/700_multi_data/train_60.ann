@@ -1,0 +1,23 @@
+T1	EO 0 5	there
+T2	EO 6 9	are
+T3	EB 10 17	exactly
+T4	EI 18 21	two
+T5	EE 22 29	squares
+T6	IN 30 38	touching
+T7	EO 39 42	the
+T8	E 43 47	edge
+T9	compare-value 10 17	exactly
+T10	quantity 18 21	two
+T11	spatial-entity 22 29	squares
+T12	EC 30 38	touching
+E1	EC:T12 arg1:T17 arg2:T16 arg3:T18
+T13	Topology 30 38	touching
+E2	Topology:T13 arg1:T17 arg2:T16 arg3:T18
+T14	Sp-rel 30 38	touching
+E3	Sp-rel:T14 arg1:T17 arg2:T16 arg3:T18
+T15	spatial-entity 43 47	edge
+R1	compare Arg1:T9 Arg2:T11	
+R2	count Arg1:T10 Arg2:T11	
+T16	trajector 22 29	squares
+T17	indicator 30 38	touching
+T18	landmark 43 47	edge

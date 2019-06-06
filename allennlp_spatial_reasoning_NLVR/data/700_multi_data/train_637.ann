@@ -1,0 +1,15 @@
+T1	EO 0 3	The
+T2	EB 4 10	middle
+T3	EI 11 13	of
+T4	EI 14 15	a
+T5	EI 16 21	three
+T6	EI 22 28	blocks
+T7	EI 29 34	tower
+T8	EI 35 37	is
+T9	EE 38 43	black
+T10	spa-value 4 10	middle
+T11	quantity 14 15	a
+T12	quantity 16 21	three
+T13	spatial-entity 22 28	blocks
+T14	spatial-entity 29 34	tower
+T15	color-value 38 43	black

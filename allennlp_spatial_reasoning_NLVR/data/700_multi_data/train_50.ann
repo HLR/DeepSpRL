@@ -1,0 +1,42 @@
+T1	EO 0 3	The
+T2	EB 4 9	first
+T3	EI 10 15	three
+T4	EI 16 21	color
+T5	EI 22 24	of
+T6	EI 25 26	a
+T7	EE 27 32	tower
+T8	IN 33 37	from
+T9	EO 38 41	the
+T10	EB 42 46	base
+T11	EI 47 50	are
+T12	EI 51 57	yellow
+T13	EI 59 65	yellow
+T14	EI 66 69	and
+T15	EE 70 75	black
+T16	quantity 4 9	first
+T17	quantity 10 15	three
+T18	color-value 16 21	color
+T19	quantity 25 26	a
+T20	spatial-entity 27 32	tower
+T21	DC 33 37	from
+E1	DC:T21 arg1:T30 arg2:T29 arg3:T31
+T22	Topology 33 37	from
+E2	Topology:T22 arg1:T30 arg2:T29 arg3:T31
+T23	Sp-rel 33 37	from
+E3	Sp-rel:T23 arg1:T30 arg2:T29 arg3:T31
+T24	spatial-entity 42 46	base
+T25	color-value 51 57	yellow
+T26	color-value 59 65	yellow
+T27	color-value 70 75	black
+T28	logic-value 66 69	and
+R1	count Arg1:T16 Arg2:T20	
+R2	count Arg1:T17 Arg2:T20	
+R3	color Arg1:T18 Arg2:T20	
+R4	count Arg1:T19 Arg2:T20	
+R5	color Arg1:T25 Arg2:T24	
+R6	color Arg1:T26 Arg2:T24	
+R7	logic Arg1:T28 Arg2:T24	
+R8	color Arg1:T27 Arg2:T24	
+T29	trajector 27 32	tower
+T30	indicator 33 37	from
+T31	landmark 42 46	base

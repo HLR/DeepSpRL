@@ -1,0 +1,13 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 17	exactly
+T4	EI 18 19	2
+T5	EI 20 24	blue
+T6	EE 25 30	items
+T7	compare-value 10 17	exactly
+T8	quantity 18 19	2
+T9	color-value 20 24	blue
+T10	spatial-entity 25 30	items
+R1	compare Arg1:T7 Arg2:T10	
+R2	count Arg1:T8 Arg2:T10	
+R3	color Arg1:T9 Arg2:T10	

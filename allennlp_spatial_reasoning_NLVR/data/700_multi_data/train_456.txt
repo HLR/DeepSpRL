@@ -1,0 +1,1 @@
+yellow square is not touching the wall.

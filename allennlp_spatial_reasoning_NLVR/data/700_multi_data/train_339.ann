@@ -1,0 +1,8 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 15	four
+T5	EI 16 21	tower
+T6	EE 22 27	block
+T7	quantity 11 15	four
+T8	spatial-entity 16 21	tower

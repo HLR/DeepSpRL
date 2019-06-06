@@ -1,0 +1,21 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 14	two
+T5	EI 15 21	blocks
+T6	EI 22 27	tower
+T7	EI 28 31	and
+T8	EI 32 36	only
+T9	EI 37 40	one
+T10	EE 41 46	color
+T11	quantity 9 10	a
+T12	quantity 11 14	two
+T13	spatial-entity 22 27	tower
+T14	compare-value 32 36	only
+T15	quantity 37 40	one
+T16	color-value 41 46	color
+R1	count Arg1:T11 Arg2:T13	
+R2	count Arg1:T12 Arg2:T13	
+R3	compare Arg1:T14 Arg2:T13	
+R4	count Arg1:T15 Arg2:T13	
+R5	color Arg1:T16 Arg2:T13	

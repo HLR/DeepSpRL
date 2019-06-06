@@ -1,0 +1,1 @@
+There is box with items of different colors and two black items at most.

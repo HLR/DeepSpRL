@@ -1,0 +1,1 @@
+There is a box with only one item that is not a blue triangle or a blue square.

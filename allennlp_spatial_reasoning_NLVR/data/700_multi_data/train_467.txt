@@ -1,0 +1,1 @@
+The blue item is not touching the wall.

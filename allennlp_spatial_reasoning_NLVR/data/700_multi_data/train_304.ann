@@ -1,0 +1,43 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	EB 20 21	2
+T7	EI 22 27	items
+T9	EO 32 35	the
+T10	EO 28 31	and
+T8	EB 36 41	black
+T11	EE 42 46	item
+T12	EO 47 49	is
+T13	IN 50 58	touching
+T14	EO 59 62	the
+T15	E 63 67	wall
+T16	quantity 9 10	a
+T17	spatial-entity 11 14	box
+T18	PP 15 19	with
+E1	PP:T18 arg1:T30 arg2:T29 arg3:T31
+T19	Topology 15 19	with
+E2	Topology:T19 arg1:T30 arg2:T29 arg3:T31
+T20	Sp-rel 15 19	with
+E3	Sp-rel:T20 arg1:T30 arg2:T29 arg3:T31
+T21	quantity 20 21	2
+T22	spatial-entity 22 27	items
+T23	color-value 36 41	black
+T24	spatial-entity 42 46	item
+T25	EC 50 58	touching
+E4	EC:T25 arg1:T33 arg2:T32 arg3:T34
+T26	Topology 50 58	touching
+E5	Topology:T26 arg1:T33 arg2:T32 arg3:T34
+T27	Sp-rel 50 58	touching
+E6	Sp-rel:T27 arg1:T33 arg2:T32 arg3:T34
+T28	spatial-entity 63 67	wall
+R1	count Arg1:T16 Arg2:T17	
+T29	trajector 11 14	box
+T30	indicator 15 19	with
+R2	count Arg1:T21 Arg2:T22	
+T31	landmark 22 27	items
+R3	color Arg1:T23 Arg2:T24	
+T32	trajector 42 46	item
+T33	indicator 50 58	touching
+T34	landmark 63 67	wall

@@ -1,0 +1,19 @@
+T1	EB 0 5	Black
+T2	EE 6 12	square
+T3	EO 13 15	is
+T4	IN 16 24	touching
+T5	EO 25 28	the
+T6	E 29 33	edge
+T7	color-value 0 5	Black
+T8	spatial-entity 6 12	square
+T9	EC 16 24	touching
+E1	EC:T9 arg1:T14 arg2:T13 arg3:T15
+T10	Topology 16 24	touching
+E2	Topology:T10 arg1:T14 arg2:T13 arg3:T15
+T11	Sp-rel 16 24	touching
+E3	Sp-rel:T11 arg1:T14 arg2:T13 arg3:T15
+T12	spatial-entity 29 33	edge
+R1	color Arg1:T7 Arg2:T8	
+T13	trajector 6 12	square
+T14	indicator 16 24	touching
+T15	landmark 29 33	edge

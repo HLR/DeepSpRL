@@ -1,0 +1,55 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	EB 20 21	4
+T7	EE 22 27	items
+T8	EO 28 31	and
+T9	EB 32 33	a
+T10	EI 34 38	blue
+T11	EI 39 43	item
+T12	IN 44 51	beneath
+T13	EO 52 55	the
+T14	E 56 60	item
+T15	IN 61 63	on
+T16	EE 64 67	top
+T17	quantity 9 10	a
+T18	spatial-entity 11 14	box
+T19	PP 15 19	with
+E1	PP:T19 arg1:T33 arg2:T32 arg3:T34
+T20	Topology 15 19	with
+E2	Topology:T20 arg1:T33 arg2:T32 arg3:T34
+T21	Sp-rel 15 19	with
+E3	Sp-rel:T21 arg1:T33 arg2:T32 arg3:T34
+T22	quantity 20 21	4
+T23	spatial-entity 22 27	items
+T24	quantity 32 33	a
+T25	color-value 34 38	blue
+T26	spatial-entity 39 43	item
+T27	BELOW 44 51	beneath
+E4	BELOW:T27 arg1:T37 arg2:T35 arg3:T36
+T28	Distance 44 51	beneath
+E5	Distance:T28 arg1:T37 arg2:T35 arg3:T36
+T29	Sp-rel 44 51	beneath
+E6	Sp-rel:T29 arg1:T37 arg2:T35 arg3:T36
+T30	spatial-entity 56 60	item
+T31	spa-value 64 67	top
+R1	count Arg1:T17 Arg2:T18	
+T32	trajector 11 14	box
+T33	indicator 15 19	with
+R2	count Arg1:T22 Arg2:T23	
+T34	landmark 22 27	items
+T35	trajector 39 43	item
+T36	landmark 56 60	item
+R3	count Arg1:T24 Arg2:T26	
+R4	color Arg1:T25 Arg2:T26	
+T37	indicator 44 51	beneath
+T38	EC 61 63	on
+E7	EC:T38 arg1:T41 arg2:T42
+T39	Distance 61 63	on
+E8	Distance:T39 arg1:T41 arg2:T42
+T40	Sp-rel 61 63	on
+E9	Sp-rel:T40 arg1:T41 arg2:T42
+T41	indicator 61 63	on
+T42	trajector 56 60	item

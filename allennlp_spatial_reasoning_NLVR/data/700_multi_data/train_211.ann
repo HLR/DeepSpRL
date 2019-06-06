@@ -1,0 +1,31 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 17	yellow
+T5	EE 18 26	triangle
+T6	EO 27 34	closely
+T7	IN 35 43	touching
+T8	EO 44 47	the
+T9	EB 48 54	bottom
+T10	EI 55 57	of
+T11	EI 58 59	a
+T12	EE 60 63	box
+T13	quantity 9 10	a
+T14	color-value 11 17	yellow
+T15	spatial-entity 18 26	triangle
+T16	Sp-rel 35 43	touching
+E1	Sp-rel:T16 arg1:T25 arg2:T24 arg3:T26
+T17	Topology 35 43	touching
+E2	Topology:T17 arg1:T25 arg2:T24 arg3:T26
+T18	EC 35 43	touching
+E3	EC:T18 arg1:T25 arg2:T24 arg3:T26
+T20	spa-value 48 54	bottom
+T22	quantity 58 59	a
+T23	spatial-entity 60 63	box
+R1	count Arg1:T22 Arg2:T23	
+R3	space Arg1:T20 Arg2:T23	
+R4	count Arg1:T13 Arg2:T15	
+R5	color Arg1:T14 Arg2:T15	
+T24	trajector 18 26	triangle
+T25	indicator 35 43	touching
+T26	landmark 60 63	box

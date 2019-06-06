@@ -1,0 +1,20 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 11	as
+T4	EE 12 15	box
+T5	spatial-entity 9 11	as
+#1	AnnotatorNotes T5	This typo could be important
+T6	EO 16 20	that
+T7	IN 21 24	has
+T8	EB 25 27	no
+T9	EI 28 33	color
+T10	EE 34 40	yellow
+T11	spatial-entity 12 15	box
+T12	PP 21 24	has
+E1	PP:T12 
+T13	Topology 21 24	has
+E2	Topology:T13 
+T14	Sp-rel 21 24	has
+E3	Sp-rel:T14 
+T15	compare-value 25 27	no
+T16	color-value 28 33	color

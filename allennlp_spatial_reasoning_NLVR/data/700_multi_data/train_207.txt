@@ -1,0 +1,1 @@
+There is no black circle closely touching right wall of a box.

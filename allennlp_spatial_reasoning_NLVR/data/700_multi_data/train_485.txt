@@ -1,0 +1,1 @@
+There is no blue square closely touching a corner of a box.

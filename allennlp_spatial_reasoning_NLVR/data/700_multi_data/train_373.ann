@@ -1,0 +1,27 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 16	tower
+T5	EI 17 21	that
+T6	EI 22 25	the
+T7	EI 26 30	base
+T8	EI 31 34	and
+T9	EI 35 41	second
+T10	EI 42 47	block
+T11	EI 48 51	are
+T12	EI 52 55	the
+T13	EI 56 60	same
+T14	EI 61 63	in
+T15	EE 64 69	color
+T16	quantity 9 10	a
+T17	spatial-entity 11 16	tower
+T18	spa-value 26 30	base
+T19	quantity 35 41	second
+T20	spatial-entity 42 47	block
+T21	compare-value 56 60	same
+T22	color-value 64 69	color
+R1	count Arg1:T16 Arg2:T17	
+R2	space Arg1:T18 Arg2:T17	
+R3	count Arg1:T19 Arg2:T20	
+R4	compare Arg1:T21 Arg2:T20	
+R5	color Arg1:T22 Arg2:T20	

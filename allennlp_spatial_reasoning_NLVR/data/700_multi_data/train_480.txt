@@ -1,0 +1,1 @@
+There is at least one yellow block above of a black block.

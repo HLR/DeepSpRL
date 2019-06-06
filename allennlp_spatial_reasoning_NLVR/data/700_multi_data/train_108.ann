@@ -1,0 +1,37 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EI 11 17	square
+T5	EI 18 21	and
+T6	EI 22 23	a
+T7	EE 24 30	circle
+T8	EO 31 38	closely
+T9	IN 39 47	touching
+T10	EB 48 49	a
+T11	EE 50 56	corner
+T12	quantity 9 10	a
+T14	quantity 22 23	a
+T15	spatial-entity 24 30	circle
+T18	spatial-entity 11 17	square
+R3	count Arg1:T12 Arg2:T18	
+R4	count Arg1:T14 Arg2:T15	
+T19	quantity 48 49	a
+T20	spatial-entity 50 56	corner
+R5	count Arg1:T19 Arg2:T20	
+T21	indicator 39 47	touching
+T22	landmark 50 56	corner
+T23	trajector 24 30	circle
+T24	Sp-rel 39 47	touching
+E1	Sp-rel:T24 arg1:T21 arg2:T23 arg3:T22
+T25	Topology 39 47	touching
+E2	Topology:T25 arg1:T21 arg2:T23 arg3:T22
+T26	EC 39 47	touching
+E3	EC:T26 arg1:T21 arg2:T23 arg3:T22
+T13	Sp-rel 0 5	There
+E4	Sp-rel:T13 arg2:T27 arg1:T21 arg3:T22
+T16	Topology 0 5	There
+E5	Topology:T16 arg2:T27 arg1:T21 arg3:T22
+T17	EC 0 5	There
+E6	EC:T17 arg2:T27 arg1:T21 arg3:T22
+T27	trajector 11 17	square
+T29	shape-value 11 17	square

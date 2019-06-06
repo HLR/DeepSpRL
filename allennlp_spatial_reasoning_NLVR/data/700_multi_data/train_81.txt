@@ -1,0 +1,1 @@
+there are exactly two circles touching the edge.

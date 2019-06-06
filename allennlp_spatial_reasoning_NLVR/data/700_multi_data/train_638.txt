@@ -1,0 +1,1 @@
+There is a blue block as the top of a tower with at most three blocks.

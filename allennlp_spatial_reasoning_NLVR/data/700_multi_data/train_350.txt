@@ -1,0 +1,1 @@
+There are at least two black blocks above a blue block.

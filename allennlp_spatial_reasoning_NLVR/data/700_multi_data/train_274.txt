@@ -1,0 +1,1 @@
+There is a box with only 2 yellow items and at least one black item.

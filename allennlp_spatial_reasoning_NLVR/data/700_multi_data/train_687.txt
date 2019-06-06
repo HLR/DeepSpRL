@@ -1,0 +1,1 @@
+There is exactly one tower with a yellow block at base.

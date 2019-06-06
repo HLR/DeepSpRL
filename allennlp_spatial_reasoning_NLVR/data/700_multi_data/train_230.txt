@@ -1,0 +1,1 @@
+There are 2 boxes that have at least 1 yellow item.

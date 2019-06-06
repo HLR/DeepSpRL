@@ -1,0 +1,19 @@
+'''
+Institution: Tulane University
+Name: Chen Zheng
+Date: 10/23/2018
+Purpose: Tutorial.
+'''
+
+run: For each of the python file, you can run in "python xxx.py"
+check_point: After training, save the parameters in here.
+Config: All the hyper-parameters setting in here.
+data_helper: Data_prepocessing for all of the dataset.
+embedding: if we have the pretraining embedding(word2vec etc.) set in here.
+model: lstm etc.
+result: save the result.
+tensorboard: Tensorboard
+train_test_function: all of the training functions and test functions.
+
+Run the code:
+Come to the run folder, and python xx.py  (xx means each of the python file)

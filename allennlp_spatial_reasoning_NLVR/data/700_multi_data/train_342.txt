@@ -1,0 +1,1 @@
+There is at least one box with exactly four items including blue one.

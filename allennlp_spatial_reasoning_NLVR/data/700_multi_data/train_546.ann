@@ -1,0 +1,29 @@
+T1	EO 0 5	there
+T2	EO 6 9	are
+T3	EB 10 12	at
+T4	EI 13 18	least
+T5	EI 19 22	two
+T6	EI 23 28	black
+T7	EE 29 36	objetcs
+T8	IN 37 45	touching
+T9	EO 46 49	the
+T10	E 50 54	edge
+T11	compare-value 10 12	at
+T12	compare-value 13 18	least
+T13	quantity 19 22	two
+T14	color-value 23 28	black
+T15	spatial-entity 29 36	objetcs
+T16	EC 37 45	touching
+E1	EC:T16 arg1:T21 arg2:T20 arg3:T22
+T17	Topology 37 45	touching
+E2	Topology:T17 arg1:T21 arg2:T20 arg3:T22
+T18	Sp-rel 37 45	touching
+E3	Sp-rel:T18 arg1:T21 arg2:T20 arg3:T22
+T19	spatial-entity 50 54	edge
+R1	compare Arg1:T11 Arg2:T15	
+R2	compare Arg1:T12 Arg2:T15	
+R3	count Arg1:T13 Arg2:T15	
+R4	color Arg1:T14 Arg2:T15	
+T20	trajector 29 36	objetcs
+T21	indicator 37 45	touching
+T22	landmark 50 54	edge

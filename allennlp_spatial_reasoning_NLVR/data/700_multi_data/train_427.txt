@@ -1,0 +1,1 @@
+There are two boxes which has the same number of objects and three kinds of colors.

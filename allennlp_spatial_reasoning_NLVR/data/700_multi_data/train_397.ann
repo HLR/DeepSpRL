@@ -1,0 +1,31 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 11	at
+T4	EI 12 17	least
+T5	EI 18 19	1
+T6	EE 20 23	box
+T7	IN 24 28	with
+T8	EB 29 30	2
+T9	EI 31 36	black
+T10	EE 37 44	circles
+T11	compare-value 9 11	at
+T12	compare-value 12 17	least
+T13	quantity 18 19	1
+T14	spatial-entity 20 23	box
+T15	quantity 29 30	2
+T16	color-value 31 36	black
+T17	spatial-entity 37 44	circles
+R1	compare Arg1:T11 Arg2:T14	
+R2	compare Arg1:T12 Arg2:T14	
+R3	count Arg1:T13 Arg2:T14	
+T18	trajector 20 23	box
+T19	PP 24 28	with
+E1	PP:T19 arg1:T23 arg2:T18 arg3:T22
+T20	Topology 24 28	with
+E2	Topology:T20 arg1:T23 arg2:T18 arg3:T22
+T21	Sp-rel 24 28	with
+E3	Sp-rel:T21 arg1:T23 arg2:T18 arg3:T22
+R4	count Arg1:T15 Arg2:T17	
+R5	color Arg1:T16 Arg2:T17	
+T22	landmark 37 44	circles
+T23	indicator 24 28	with

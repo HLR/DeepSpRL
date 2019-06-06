@@ -1,0 +1,10 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	1
+T4	EI 11 15	blue
+T5	EE 16 22	circle
+T6	quantity 9 10	1
+T7	color-value 11 15	blue
+T8	spatial-entity 16 22	circle
+R3	count Arg1:T6 Arg2:T8	
+R1	color Arg1:T7 Arg2:T8	

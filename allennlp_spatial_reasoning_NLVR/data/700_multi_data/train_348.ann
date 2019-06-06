@@ -1,0 +1,47 @@
+T1	EB 0 3	One
+T2	EI 4 6	of
+T3	EI 7 10	the
+T4	EI 11 15	grey
+T5	EE 16 19	box
+T6	IN 20 28	contains
+T7	EB 29 36	exactly
+T8	EI 37 40	one
+T9	EE 41 47	object
+T10	EO 48 53	which
+T11	IN 54 56	is
+T12	EB 57 58	a
+T13	EI 59 64	black
+T14	EE 65 71	circle
+T15	quantity 0 3	One
+T16	color-value 11 15	grey
+T17	spatial-entity 16 19	box
+R1	count Arg1:T15 Arg2:T17	
+R2	color Arg1:T16 Arg2:T17	
+T18	PP 20 28	contains
+E1	PP:T18 arg1:T21 arg2:T22 arg3:T29
+T19	Topology 20 28	contains
+E2	Topology:T19 arg1:T21 arg2:T22 arg3:T29
+T20	Sp-rel 20 28	contains
+E3	Sp-rel:T20 arg1:T21 arg2:T22 arg3:T29
+T21	indicator 20 28	contains
+T22	trajector 16 19	box
+T23	compare-value 29 36	exactly
+T24	quantity 37 40	one
+T25	spatial-entity 41 47	object
+R3	compare Arg1:T23 Arg2:T25	
+R4	count Arg1:T24 Arg2:T25	
+T26	quantity 57 58	a
+T27	color-value 59 64	black
+T28	spatial-entity 65 71	circle
+R5	count Arg1:T26 Arg2:T28	
+R6	color Arg1:T27 Arg2:T28	
+T29	landmark 41 47	object
+T30	trajector 41 47	object
+T31	landmark 65 71	circle
+T32	PP 54 56	is
+E4	PP:T32 arg1:T35 arg2:T30 arg3:T31
+T33	Topology 54 56	is
+E5	Topology:T33 arg1:T35 arg2:T30 arg3:T31
+T34	Sp-rel 54 56	is
+E6	Sp-rel:T34 arg1:T35 arg2:T30 arg3:T31
+T35	indicator 54 56	is

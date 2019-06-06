@@ -1,0 +1,49 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	EB 20 24	only
+T7	EI 25 28	one
+T8	EI 29 33	item
+T9	EI 34 38	that
+T10	EI 39 41	is
+T11	EI 42 45	not
+T12	EI 46 47	a
+T13	EI 48 52	blue
+T14	EI 53 61	triangle
+T15	EI 62 64	or
+T16	EI 65 66	a
+T17	EI 67 71	blue
+T18	EE 72 78	square
+T19	quantity 9 10	a
+T20	spatial-entity 11 14	box
+T21	compare-value 20 24	only
+T22	quantity 25 28	one
+T23	spatial-entity 29 33	item
+T24	compare-value 42 45	not
+T25	quantity 46 47	a
+T26	color-value 48 52	blue
+T27	shape-value 53 61	triangle
+T28	quantity 65 66	a
+T29	color-value 67 71	blue
+T30	shape-value 72 78	square
+R1	count Arg1:T19 Arg2:T20	
+T31	trajector 11 14	box
+T32	PP 15 19	with
+E1	PP:T32 arg1:T35 arg2:T31 arg3:T36
+T33	Topology 15 19	with
+E2	Topology:T33 arg1:T35 arg2:T31 arg3:T36
+T34	Sp-rel 15 19	with
+E3	Sp-rel:T34 arg1:T35 arg2:T31 arg3:T36
+T35	indicator 15 19	with
+R2	compare Arg1:T21 Arg2:T23	
+R3	count Arg1:T22 Arg2:T23	
+R4	compare Arg1:T24 Arg2:T23	
+R5	count Arg1:T25 Arg2:T23	
+R6	color Arg1:T26 Arg2:T23	
+R7	shape Arg1:T27 Arg2:T23	
+R8	count Arg1:T28 Arg2:T23	
+R9	color Arg1:T29 Arg2:T23	
+R10	shape Arg1:T30 Arg2:T23	
+T36	landmark 29 33	item

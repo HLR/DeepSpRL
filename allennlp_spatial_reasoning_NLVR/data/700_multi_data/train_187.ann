@@ -1,0 +1,25 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 17	exactly
+T4	EI 19 22	two
+T5	EI 23 29	yellow
+T6	EE 30 37	circles
+T7	EC 38 46	touching
+E1	EC:T7 arg1:T14 arg2:T19 arg3:T20
+T8	EO 47 50	the
+T9	E 51 55	base
+T10	compare-value 10 17	exactly
+T11	quantity 19 22	two
+T12	color-value 23 29	yellow
+T13	spatial-entity 30 37	circles
+T14	indicator 38 46	touching
+T15	Sp-rel 38 46	touching
+E2	Sp-rel:T15 arg1:T14 arg2:T19 arg3:T20
+T16	Topology 38 46	touching
+E3	Topology:T16 arg1:T14 arg2:T19 arg3:T20
+T18	spatial-entity 51 55	base
+R2	color Arg1:T12 Arg2:T13	
+R3	count Arg1:T11 Arg2:T13	
+R4	compare Arg1:T10 Arg2:T13	
+T19	trajector 30 37	circles
+T20	landmark 51 55	base

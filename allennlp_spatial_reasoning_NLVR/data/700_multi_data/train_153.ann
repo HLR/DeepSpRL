@@ -1,0 +1,31 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	EO 20 24	only
+T7	EB 25 26	2
+T8	EI 27 32	items
+T9	EI 33 35	of
+T10	EI 36 45	different
+T11	EE 46 51	color
+#1	AnnotatorNotes T10	there is a missing "a" before different to make this grammatical
+T12	quantity 9 10	a
+T13	spatial-entity 11 14	box
+T14	trajector 11 14	box
+T15	PP 15 19	with
+E1	PP:T15 arg1:T17 arg2:T14 arg3:T21
+T16	Sp-rel 15 19	with
+E2	Sp-rel:T16 arg1:T17 arg2:T14 arg3:T21
+T17	indicator 15 19	with
+T18	Topology 15 19	with
+E3	Topology:T18 arg1:T17 arg2:T14 arg3:T21
+T19	quantity 25 26	2
+T20	spatial-entity 27 32	items
+T21	landmark 27 32	items
+R1	count Arg1:T12 Arg2:T13	
+R2	count Arg1:T19 Arg2:T20	
+T22	compare-value 36 45	different
+T23	color-value 46 51	color
+R3	compare Arg1:T22 Arg2:T20	
+R4	color Arg1:T23 Arg2:T20	

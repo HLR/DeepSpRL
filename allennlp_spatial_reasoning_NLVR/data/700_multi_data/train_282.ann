@@ -1,0 +1,41 @@
+T1	EO 0 5	There
+T2	EO 6 8	is
+T3	EB 9 10	a
+T4	EE 11 14	box
+T5	IN 15 19	with
+T6	EB 20 21	2
+T7	EI 22 31	triangles
+T8	EI 32 34	of
+T9	EI 35 39	same
+T10	EE 40 45	color
+T11	EO 46 52	nearly
+T12	IN 53 61	touching
+T13	EO 62 66	each
+T14	EO 67 72	other
+T15	quantity 9 10	a
+T16	spatial-entity 11 14	box
+T17	PP 15 19	with
+E1	PP:T17 arg1:T31 arg2:T30 arg3:T32
+T18	Topology 15 19	with
+E2	Topology:T18 arg1:T31 arg2:T30 arg3:T32
+T19	Sp-rel 15 19	with
+E3	Sp-rel:T19 arg1:T31 arg2:T30 arg3:T32
+T20	quantity 20 21	2
+T21	spatial-entity 22 31	triangles
+T22	compare-value 35 39	same
+T23	color-value 40 45	color
+T24	EC 53 61	touching
+E4	EC:T24 arg1:T27 arg2:T33 arg3:T32
+T25	Topology 53 61	touching
+E5	Topology:T25 arg1:T27 arg2:T33 arg3:T32
+T26	Sp-rel 53 61	touching
+E6	Sp-rel:T26 arg1:T27 arg2:T33 arg3:T32
+T27	indicator 53 61	touching
+R1	count Arg1:T15 Arg2:T16	
+T30	trajector 11 14	box
+T31	indicator 15 19	with
+R2	count Arg1:T20 Arg2:T21	
+R3	compare Arg1:T22 Arg2:T21	
+R4	color Arg1:T23 Arg2:T21	
+T32	landmark 22 31	triangles
+T33	trajector 22 31	triangles

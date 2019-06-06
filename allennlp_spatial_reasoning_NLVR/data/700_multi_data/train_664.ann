@@ -1,0 +1,10 @@
+T1	EO 0 5	There
+T2	EO 6 9	are
+T3	EB 10 11	2
+T4	EI 12 18	yellow
+T5	EE 19 26	squares
+T6	quantity 10 11	2
+T7	color-value 12 18	yellow
+T8	spatial-entity 19 26	squares
+R1	count Arg1:T6 Arg2:T8	
+R2	color Arg1:T7 Arg2:T8	

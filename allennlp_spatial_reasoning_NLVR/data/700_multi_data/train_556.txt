@@ -1,0 +1,1 @@
+There is at least one yellow block as the top of a tower.
