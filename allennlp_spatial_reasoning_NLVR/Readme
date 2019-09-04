@@ -1,0 +1,12 @@
+Author: Chen Zheng
+Email: zhengc12@msu.edu
+Organization: Michigan State University
+
+Code Language: Python 3.5
+
+How to run the NLVR code?
+
+1. Please making sure that your machine has the Pytorch and AllenNLP environment;
+2. Coming to "run" folder;
+3. Runing code by "python run.py"
+4. If you want to know the mechanism of NER training, you can run "python run_ner.py"
