@@ -10,3 +10,10 @@ How to run the NLVR code?
 2. Coming to "run" folder;
 3. Runing code by "python run.py"
 4. If you want to know the mechanism of NER training, you can run "python run_ner.py"
+
+Some important pathes:
+1. data: Storing the nlvr dataset.
+2. data_preprocessing: Coping with data preprocessing, including: Sentence to embedding, vocab index, etc.
+3. model: The key component in the project, which is presenting the whole Deep SpRL architecture. 
+
+
